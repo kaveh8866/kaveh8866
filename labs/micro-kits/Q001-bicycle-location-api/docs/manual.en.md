@@ -4,6 +4,12 @@
 
 **Goal:** Learn API Gateway → Lambda → CloudWatch with a synthetic GPS update. **No database, no real bicycle tracking, no permanent location storage.**
 
+## Before any deployment: walk through EVERY service in the original question
+
+**Required core of Q001:** [No-create console tour](service-tour.en.md) covers all answer options and the user's Kinesis/Flink diagram, with clickable navigation steps and precise **STOP BEFORE CREATE** checkpoints. Review the [cost/architecture comparison](cost-comparison.en.md) before deciding whether to run any optional Lambda/API deployment.
+
+**You can complete the discovery tour with no lab resources created.** Cloud creation is optional, not the purpose of the question.
+
 ## 0. Select a safe execution mode
 
 Before **any** cloud resource: finish [preflight](preflight.en.md), choose one Region (example `eu-central-1`), use a non-root identity with appropriate access, check your free-plan/credit status and determine whether this is affordable. If in doubt, choose **read-only console tour + local tests**.

@@ -1,3 +1,5 @@
+<div dir="rtl" align="right">
+
 # کیت آزمایش آموزشی ۰۰۱ — API موقعیت دوچرخه
 
 [English](README.md) | **فارسی** · **استاندارد کیت:** ۱.۰ · **وضعیت:** آماده اجرا؛ **هنوز روی AWS آزمایش نشده** · **آزمون:** SAA-C03
@@ -37,6 +39,15 @@
 
 **فایل‌های قابل اجرا:** [تابع Python](lambda/handler.py) · [تست‌های آفلاین](tests/test_handler.py) · [رویدادهای نمونه](examples/) · [Terraform](terraform/) · [کلاینت امضای IAM](scripts/invoke_iam.py).
 
+
+
+## مسیرهای اصلی کیت
+
+- [گردش کامل در کنسول تمام سرویس‌های سؤال، بدون ساخت منبع](docs/service-tour.fa.md)
+- [مقایسه هزینه و دلیل انتخاب مسیر سبک Lambda](docs/cost-comparison.fa.md)
+- [استاندارد نگارش دوزبانه و راست‌به‌چپ](../../../docs/BILINGUAL_MARKDOWN_STANDARD.fa.md)
+
+**توجه:** وجود Kinesis Data Streams و Kinesis Data Analytics / Flink در سؤال و دیاگرام مرجع حفظ شده است. اجرای Lambda فقط یکی از *مسیرهای اختیاری* است، نه جایگزینی معماری اصلی سؤال. هدف اجباری این کیت آشنایی با سرویس‌هاست؛ هیچ منبع AWS لازم نیست ساخته شود.
 ## سه مسیر اجرای اختیاری
 
 **الف — کنسول AWS:** مراحل دستی را دنبال کن؛ Lambda را تست کن و تنها زمانی API را منتشر کن که تنظیم IAM روی Route **پیش از انتشار Stage** بررسی شده باشد. اگر کنسول مسیر بدون احراز مجوز را خودکار منتشر می‌کند، **متوقف شو** و برای API از Terraform استفاده کن.
@@ -47,10 +58,10 @@
 
 ## اجرای سریع تست محلی
 
-```bash
-cd labs/micro-kits/Q001-bicycle-location-api
-python3 -m unittest discover -s tests -v
-```
+
+<pre dir="ltr" align="left"><code>cd labs/micro-kits/Q001-bicycle-location-api
+python3 -m unittest discover -s tests -v</code></pre>
+
 
 **قاعده شواهد:** تا پیش از آزمایش واقعی، فایل‌های گزارش انگلیسی و فارسی خالی از نتیجه‌اند. انتشار کیت به معنی اجرای موفق در Cloud نیست. پس از اجرا منطقه، نتایج بدون اطلاعات حساس، هزینه، تأیید حذف و دیاگرام خودت را اضافه کن.
 
@@ -65,3 +76,5 @@ python3 -m unittest discover -s tests -v
 - [قیمت API Gateway](https://aws.amazon.com/api-gateway/pricing/)
 
 **این کیت وابسته به AWS یا مورد تأیید رسمی آن نیست.** متن سؤال برای آموزش بازنویسی شده است.
+
+</div>

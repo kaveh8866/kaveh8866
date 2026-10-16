@@ -1,3 +1,5 @@
+<div dir="rtl" align="right">
+
 # سؤال ۰۰۱ — راهنمای حذف و تأیید پاک‌سازی
 
 [English](cleanup.en.md) · [پیش‌بررسی](preflight.fa.md)
@@ -19,11 +21,11 @@
 
 در پوشه `terraform/` همین کیت، با **همان State، Workspace، حساب و Region** که Apply شده:
 
-```bash
-terraform plan -destroy
+
+<pre dir="ltr" align="left"><code>terraform plan -destroy
 terraform destroy
-terraform state list
-```
+terraform state list</code></pre>
+
 
 بعد از Destroy نباید منبعی از این کیت در State باقی مانده باشد. **پاک‌کردن فایل `.tfstate` منابع Cloud را حذف نمی‌کند.** اگر State گم شده، بدون بررسی دوباره Apply نکن و منابع دیگر را کورکورانه پاک نکن.
 
@@ -45,3 +47,5 @@ terraform state list
 - اسکرین‌شات‌های بدون شماره حساب، امضا، کلید یا داده شخصی.
 
 **هیچ فایل این مخزن به‌صورت خودکار منابع حساب AWS تو را پاک نمی‌کند؛ اجرای واقعی مراحل ضروری است.**
+
+</div>

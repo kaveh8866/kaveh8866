@@ -16,6 +16,12 @@ A bicycle-sharing service anticipates peak traffic for location updates. Its arc
 
 > **What this kit proves:** A SigV4-authorized HTTP API routes one signed POST request into Lambda, the handler validates synthetic coordinates and returns a response. **No coordinates are persisted. No real bicycles or people are tracked.**
 
+## Essential: explore ALL services, not just Lambda
+
+- **[Full no-create service tour](docs/service-tour.en.md)** covers **API Gateway, Lambda, Kinesis Data Streams, Managed Service for Apache Flink (old name Kinesis Data Analytics), S3, Athena, Redshift, and Amazon Quick Sight (old name QuickSight)**, with the console tabs to inspect and exact *stop-before-creating* guidance.
+- **[Service cost and architecture comparison](docs/cost-comparison.en.md)** explains why this optional Lambda lab is a smaller, cheaper teaching subset, **not** an exam-answer substitution. **No AWS resource creation is required to complete the service-discovery exercise.**
+- [Bilingual Markdown/RTL authoring standard](../../../docs/BILINGUAL_MARKDOWN_STANDARD.en.md).
+
 ## Learning outcomes
 
 - Identify API Gateway HTTP API, routes, stages, integration and IAM authorization in the console.

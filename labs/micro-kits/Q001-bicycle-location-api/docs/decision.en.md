@@ -2,6 +2,8 @@
 
 [فارسی](decision.fa.md) · **Status: Educational decision (not a production design)**
 
+**Study rule:** preserve the original question's services and architecture while choosing a different minimal executable subset only as an *optional* teaching exercise. [Service discovery](service-tour.en.md) and [cost comparison](cost-comparison.en.md).
+
 ## Context
 
 Paraphrased question: a bicycle-sharing fleet needs location updates at peak times, analytics integration and retrieval through a RESTful interface. Options: Athena + S3; API Gateway + Lambda; QuickSight + Redshift; API Gateway + Kinesis Data Analytics (now Amazon Managed Service for Apache Flink). Screenshot marks D but **a highlighted answer is not independent verification**.

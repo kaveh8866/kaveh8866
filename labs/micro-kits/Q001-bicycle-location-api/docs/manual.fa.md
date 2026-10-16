@@ -1,8 +1,16 @@
+<div dir="rtl" align="right">
+
 # سؤال ۰۰۱ — راهنمای اجرای دستی در کنسول AWS
 
 [English](manual.en.md) · [معرفی کیت](../README.fa.md) · [پیش‌بررسی](preflight.fa.md) · [پاک‌سازی](cleanup.fa.md)
 
 **هدف:** شناخت ارتباط API Gateway ← Lambda ← CloudWatch با یک پیام GPS ساختگی. **بدون دیتابیس، بدون ردیابی واقعی، بدون ذخیره دائمی موقعیت.**
+
+## قبل از هر کلیک: اول تمام گزینه‌های سؤال را بشناس
+
+**این مرحله اصلی کیت است و رایگان‌بودن آن از جهت ایجادنکردن منابع است:** [گردش ریزبه‌ریز همه سرویس‌ها](service-tour.fa.md)، شامل API Gateway، Lambda، Kinesis Data Streams، Flink، S3، Athena، Redshift و Amazon Quick Sight. هر سرویس، تب‌های قابل‌مشاهده، دکمه توقف و مسیر جایگزین دارد. سپس [جدول محرک‌های هزینه](cost-comparison.fa.md) را بخوان. **برای پایان موفق آموزشی، مجبور نیستی API یا Lambda بسازی.**
+
+**مسیر انجام:** اول فقط مشاهده و یادداشت؛ در صورت آمادگی مالی و مجوز، بعداً مسیر اختیاری اجرای Lambda + API را انتخاب کن.
 
 ## ۰. انتخاب مسیر امن
 
@@ -22,10 +30,10 @@
 
 ## ۲. تست محلی اولیه (بدون AWS)
 
-```bash
-cd labs/micro-kits/Q001-bicycle-location-api
-python3 -m unittest discover -s tests -v
-```
+
+<pre dir="ltr" align="left"><code>cd labs/micro-kits/Q001-bicycle-location-api
+python3 -m unittest discover -s tests -v</code></pre>
+
 
 فایل‌های `lambda/handler.py` و `examples/valid-event.json` را بررسی کن. تابع از ساختار رویداد **HTTP API نسخه ۲** استفاده می‌کند و بدنه شامل `bike_id`، `latitude` و `longitude` است.
 
@@ -62,10 +70,10 @@ python3 -m unittest discover -s tests -v
 7. هویت فراخواننده باید فقط برای همین API/Stage/Route مجوز `execute-api:Invoke` داشته باشد. اگر اجازه تنظیم آن را نداری، با مدیر حساب هماهنگ کن؛ دسترسی را گسترده یا Root استفاده نکن.
 8. با AWS profile یا نشست SSO معتبر و کلاینت امضای IAM درخواست بفرست:
 
-```bash
-python3 -m pip install --user boto3  # در صورت نیاز
-python3 scripts/invoke_iam.py --url "https://YOUR_API_ID.execute-api.eu-central-1.amazonaws.com/lab/locations" --region eu-central-1
-```
+
+<pre dir="ltr" align="left"><code>python3 -m pip install --user boto3  # در صورت نیاز
+python3 scripts/invoke_iam.py --url "https://YOUR_API_ID.execute-api.eu-central-1.amazonaws.com/lab/locations" --region eu-central-1</code></pre>
+
 
 **کلیدها را در کد قرار نده.** اسکریپت از اعتبارنامه موقت/پروفایل استفاده می‌کند، با SigV4 امضا می‌کند و فقط داده ساختگی ارسال می‌کند.
 
@@ -83,3 +91,5 @@ python3 scripts/invoke_iam.py --url "https://YOUR_API_ID.execute-api.eu-central-
 طبق [راهنمای پاک‌سازی](cleanup.fa.md)، API Gateway، Lambda، IAM Roles، CloudWatch Log groups و هر منبع دستی اضافه‌شده را در همان Region بررسی کن. نتایج **مشاهده‌شده** را در [فرم ثبت](record.fa.md) بنویس.
 
 **شرط پایان:** ثبت نتیجه واقعی و تأیید مستقل حذف منابع در کنسول. اگر فقط تست محلی انجام دادی وضعیت `local-tested` است، نه `aws-tested`.
+
+</div>

@@ -4,6 +4,8 @@
 
 **STOP before deploying until every item is answered.** API Gateway, Lambda and CloudWatch may charge for API requests, compute duration and log storage. A free-plan label or credits are **not** universal guarantees; inspect your current account, AWS Pricing Calculator and official pricing pages: [API Gateway](https://aws.amazon.com/api-gateway/pricing/), [Lambda](https://aws.amazon.com/lambda/pricing/), [CloudWatch](https://aws.amazon.com/cloudwatch/pricing/).
 
+Review [all service cost drivers](cost-comparison.en.md) and [the zero-resource console tour](service-tour.en.md) first. Read-only exploration is a valid completion path.
+
 ## Checklist
 
 - [ ] I know if my account is Free or Paid, its remaining credits and their expiration date.
