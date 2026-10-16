@@ -1,0 +1,21 @@
+name: Validate portfolio
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate manifest and structure
+        run: python scripts/validate_repo.py
+      - name: Check generated progress
+        run: python scripts/progress.py --check
+      - name: Offline unit tests
+        run: python -m unittest discover -s tests -v
+# No AWS credentials, no deploy, no paid dependencies.

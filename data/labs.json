@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "program": "AWS SAA-C03 30-day architecture journey",
+  "start_date": "2026-10-16",
+  "labs": [
+    {
+      "id": "D1-L1",
+      "week": 1,
+      "domain": "D1",
+      "name": "IAM Least Privilege",
+      "path": "labs/week-01-foundation/D1-L1-iam-least-privilege",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D2-L1",
+      "week": 1,
+      "domain": "D2",
+      "name": "S3 Versioning and Object Recovery",
+      "path": "labs/week-01-foundation/D2-L1-s3-versioning-recovery",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D3-L1",
+      "week": 1,
+      "domain": "D3",
+      "name": "S3 Request Patterns",
+      "path": "labs/week-01-foundation/D3-L1-s3-request-patterns",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D4-L1",
+      "week": 1,
+      "domain": "D4",
+      "name": "Budgets and Storage Cost Drivers",
+      "path": "labs/week-01-foundation/D4-L1-budgets-and-cost-drivers",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D1-L2",
+      "week": 2,
+      "domain": "D1",
+      "name": "Lambda Execution Role",
+      "path": "labs/week-02-builder/D1-L2-lambda-role",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D2-L2",
+      "week": 2,
+      "domain": "D2",
+      "name": "Idempotent Event Processing",
+      "path": "labs/week-02-builder/D2-L2-idempotent-events",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D3-L2",
+      "week": 2,
+      "domain": "D3",
+      "name": "Lambda and DynamoDB Latency",
+      "path": "labs/week-02-builder/D3-L2-lambda-dynamodb-latency",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D4-L2",
+      "week": 2,
+      "domain": "D4",
+      "name": "Lambda versus EC2 Economics",
+      "path": "labs/week-02-builder/D4-L2-lambda-vs-ec2",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D1-L3",
+      "week": 3,
+      "domain": "D1",
+      "name": "Queue-based Threat Model",
+      "path": "labs/week-03-architect/D1-L3-queue-threat-model",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D2-L3",
+      "week": 3,
+      "domain": "D2",
+      "name": "SQS Dead-Letter and Recovery",
+      "path": "labs/week-03-architect/D2-L3-sqs-dlq-recovery",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D3-L3",
+      "week": 3,
+      "domain": "D3",
+      "name": "Batch and Concurrency Tuning",
+      "path": "labs/week-03-architect/D3-L3-batch-concurrency",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D4-L3",
+      "week": 3,
+      "domain": "D4",
+      "name": "Synchronous versus Asynchronous Cost",
+      "path": "labs/week-03-architect/D4-L3-sync-vs-async-cost",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D1-L4",
+      "week": 4,
+      "domain": "D1",
+      "name": "Encryption and Threat Model Review",
+      "path": "labs/week-04-professional/D1-L4-encryption-review",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D2-L4",
+      "week": 4,
+      "domain": "D2",
+      "name": "Multi-AZ Recovery Design",
+      "path": "labs/week-04-professional/D2-L4-rto-rpo-design",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D3-L4",
+      "week": 4,
+      "domain": "D3",
+      "name": "Database and Caching Decisions",
+      "path": "labs/week-04-professional/D3-L4-database-caching",
+      "status": "planned",
+      "aws_tested": false
+    },
+    {
+      "id": "D4-L4",
+      "week": 4,
+      "domain": "D4",
+      "name": "Architecture Cost Scenarios",
+      "path": "labs/week-04-professional/D4-L4-architecture-cost-scenarios",
+      "status": "planned",
+      "aws_tested": false
+    }
+  ]
+}
