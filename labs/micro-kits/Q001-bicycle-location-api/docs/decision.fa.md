@@ -1,3 +1,5 @@
+<div dir="rtl" align="right">
+
 # تصمیم معماری ADR-Q001 — ورودی API در برابر تحلیل جریان و ذخیره‌سازی دائمی
 
 [English](decision.en.md) · **وضعیت: تصمیم آموزشی، نه معماری آماده تولید**
@@ -37,3 +39,5 @@
 - https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-access-control-iam.html
 - https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html
 - https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html
+
+</div>

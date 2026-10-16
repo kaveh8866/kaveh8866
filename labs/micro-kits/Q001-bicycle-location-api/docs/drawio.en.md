@@ -4,6 +4,8 @@
 
 **You draw the diagram.** We deliberately do not supply a finished editable architecture. The question screenshot contains **text and answer options, not an architecture diagram**. When the learner contributes a genuine reference diagram, link it separately with source/permission noted.
 
+**Two separate diagrams are valid:** (1) your original full **API Gateway → Kinesis Data Streams → Flink → analytics platform** reference architecture, marked **not deployed**; and (2) the optional smaller **API Gateway → Lambda → CloudWatch** test architecture. Do not remove Flink from your reference drawing. [Cost and architecture comparison](cost-comparison.en.md).
+
 ## Manual drawing in https://app.diagrams.net
 
 1. Choose **Device** (local save), then **Create New Diagram → Blank Diagram**. File name: `Q001-bicycle-location-api.drawio`.

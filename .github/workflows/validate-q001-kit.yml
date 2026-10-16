@@ -2,11 +2,15 @@ name: Validate Q001 bilingual micro-lab
 on:
   push:
     paths:
-      - 'labs/micro-kits/Q001-bicycle-location-api/**'
+      - 'labs/micro-kits/**'
+      - 'docs/BILINGUAL_MARKDOWN_STANDARD.*.md'
+      - 'scripts/check_micro_lab_locales.py'
       - '.github/workflows/validate-q001-kit.yml'
   pull_request:
     paths:
-      - 'labs/micro-kits/Q001-bicycle-location-api/**'
+      - 'labs/micro-kits/**'
+      - 'docs/BILINGUAL_MARKDOWN_STANDARD.*.md'
+      - 'scripts/check_micro_lab_locales.py'
       - '.github/workflows/validate-q001-kit.yml'
 permissions:
   contents: read
@@ -18,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate bilingual structure and GitHub-safe RTL
+        run: python scripts/check_micro_lab_locales.py
       - name: Offline Lambda unit tests
         run: python -m unittest discover -s labs/micro-kits/Q001-bicycle-location-api/tests -v
       - uses: hashicorp/setup-terraform@v3
