@@ -1,0 +1,32 @@
+name: Validate Q001 bilingual micro-lab
+on:
+  push:
+    paths:
+      - 'labs/micro-kits/Q001-bicycle-location-api/**'
+      - '.github/workflows/validate-q001-kit.yml'
+  pull_request:
+    paths:
+      - 'labs/micro-kits/Q001-bicycle-location-api/**'
+      - '.github/workflows/validate-q001-kit.yml'
+permissions:
+  contents: read
+jobs:
+  validate-offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline Lambda unit tests
+        run: python -m unittest discover -s labs/micro-kits/Q001-bicycle-location-api/tests -v
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.8
+      - name: Terraform formatting and validation (no AWS deploy)
+        working-directory: labs/micro-kits/Q001-bicycle-location-api/terraform
+        run: |
+          terraform fmt
+          terraform init -backend=false
+          terraform validate
+# No AWS credentials, Terraform apply or cloud resources in CI.

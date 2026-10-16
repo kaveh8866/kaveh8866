@@ -34,6 +34,11 @@ I use AI to explain, prototype, test, and review—not to replace my architectur
 
 **No labs are marked complete yet.** Exercise statuses live in [the progress tracker](docs/PROGRESS.md); local tests and live AWS runs are never conflated.
 
+
+### 🧪 Bilingual AWS Micro-Lab Kits (English / فارسی)
+
+- **[Q001 · Bicycle Location API — English](labs/micro-kits/Q001-bicycle-location-api/README.md)** / **[فارسی](labs/micro-kits/Q001-bicycle-location-api/README.fa.md)** — an IAM-protected API Gateway → Lambda console/Terraform teaching kit, with manual execution, Draw.io worksheet and verified-cleanup checklist. **Kit available; no live AWS run claimed.**
+
 ### 🔍 Explore my AWS portfolio
 
 - **[30-day roadmap](docs/ROADMAP_30_DAYS.md)** — four levels, 16 scoped exercises.

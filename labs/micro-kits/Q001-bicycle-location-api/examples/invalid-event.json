@@ -1,0 +1,11 @@
+{
+  "version": "2.0",
+  "rawPath": "/locations",
+  "requestContext": {
+    "http": {
+      "method": "POST",
+      "path": "/locations"
+    }
+  },
+  "body": "{\"bike_id\":\"BIKE-101\",\"latitude\":95,\"longitude\":9.9937}"
+}
