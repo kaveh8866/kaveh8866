@@ -1,33 +1,51 @@
-"""Validate the concise bilingual profile and project metadata offline."""
+"""Validate the concise, bilingual employment-focused profile and project registry offline."""
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 root = Path(__file__).resolve().parents[1]
 data = json.loads((root / "portfolio" / "projects.json").read_text(encoding="utf-8"))
 projects = data["planned_projects"]
-assert len(projects) == 10, "Expected initial batch of ten projects"
-ids = [p["id"] for p in projects]
-assert ids == [f"{i:02}" for i in range(1, 11)], "Project IDs must be ordered and unique"
-slugs = [p["slug"] for p in projects]
-assert len(set(slugs)) == len(slugs), "Duplicate project slug"
+assert len(projects) == 10, "Expected first batch of ten projects"
+assert [p["id"] for p in projects] == [f"{i:02}" for i in range(1, 11)]
+assert len({p["slug"] for p in projects}) == len(projects), "Duplicate project slug"
 allowed = {"planned", "in_progress", "local_verified", "cloud_verified", "published"}
-for p in projects:
-    assert p["status"] in allowed, f"Unexpected project status: {p['id']}"
-    assert p["title"] and p["title_de"] and p["tech"], f"Missing bilingual metadata: {p['id']}"
-    if p["status"] == "planned":
-        assert p["repository"] is None, f"Planned project has published repo: {p['id']}"
-    if p["status"] in ("cloud_verified", "published"):
-        assert p["repository"], f"Project requires a published link: {p['id']}"
-    assert isinstance(p["verified_providers"], list)
+for project in projects:
+    assert project["status"] in allowed, f"Unexpected status: {project['id']}"
+    assert project["title"] and project["title_de"] and project["tech"]
+    if project["status"] == "planned":
+        assert project["repository"] is None, f"Planned project has repo: {project['id']}"
+    if project["status"] in ("cloud_verified", "published"):
+        assert project["repository"], f"Missing repository link: {project['id']}"
+    assert isinstance(project["verified_providers"], list)
+
 for page in ["README.md", "README.de.md", "PORTFOLIO.md", "PORTFOLIO.de.md"]:
-    text = (root / page).read_text(encoding="utf-8")
-    assert "SAA-C03" not in text and "micro-lab" not in text.lower(), page
-    assert len(text) < 4800, f"Page too long for concise hiring portfolio: {page}"
-    for link in re.findall(r"\]\(([^)]+)\)", text):
+    content = (root / page).read_text(encoding="utf-8")
+    assert len(content) < 4800, f"Not concise enough: {page}"
+    assert "SAA-C03" not in content and "micro-lab" not in content.lower(), page
+    for link in re.findall(r"\]\(([^)]+)\)", content):
         if "://" not in link and not link.startswith("#"):
-            assert (root / link.split("#", 1)[0]).exists(), f"Broken local link {link} in {page}"
-for listed in data["featured_public_repositories"]:
-    assert listed["repository"].startswith("https://github.com/"), listed
-assert data["certifications"] == [], "Do not invent or pre-list certifications"
-print("Bilingual profile links, concise content and portfolio registry: OK")
+            assert (root / link.split("#", 1)[0]).exists(), f"Broken link {link}: {page}"
+
+# Verify the profile references the same real featured repositories in both languages.
+featured = data["featured_public_repositories"]
+assert len(featured) >= 1
+for item in featured:
+    link = item["repository"]
+    assert link.startswith("https://github.com/"), item
+    for page in ("README.md", "README.de.md"):
+        assert link in (root / page).read_text(encoding="utf-8"), f"{page}: missing {link}"
+
+# Allow future credentials, but never accept unverifiable or incomplete entries.
+credentials = data.get("certifications", [])
+assert isinstance(credentials, list)
+for credential in credentials:
+    assert isinstance(credential, dict), credential
+    for key in ("name", "issuer", "earned_date", "verification_url"):
+        assert isinstance(credential.get(key), str) and credential[key].strip(), key
+    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", credential["earned_date"]), "Date must be YYYY-MM-DD"
+    parsed = urlparse(credential["verification_url"])
+    assert parsed.scheme == "https" and parsed.netloc, "Verification link must be HTTPS"
+
+print("Employer-facing bilingual profile, project links and credential schema: OK")

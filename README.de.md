@@ -1,35 +1,34 @@
 # Hallo, ich bin @kaveh8866
 
-**Softwareentwickler · Backend · Cloud / DevOps · KI-Systeme**  
-In Deutschland · [English](README.md) · [Projektportfolio](PORTFOLIO.de.md)
+**Softwareentwickler | Backend · Cloud / DevOps · KI-Integration**
 
-Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge. Wichtig sind mir **wartbare Lösungen, portable Deployments, Automatisierung und überschaubare Betriebskosten**. Meine Schwerpunkte sind Backend-Dienste, Cloud-Werkzeuge, lokal betriebene Systeme und KI-Integrationen.
+Standort: Deutschland · [English](README.md) · [Projektportfolio](PORTFOLIO.de.md)
 
-### Ausgewählte Projekte
+Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge – von Backend-Diensten und Linux-Containern bis hin zu Automatisierung und KI-Integrationen. Dabei lege ich Wert auf **wartbaren Code, portable Deployments, nachvollziehbare Architektur, Sicherheit und angemessene Betriebskosten**.
 
-**[SemantIQ](https://github.com/Logorythmus-org/Semantiq)**  
-Open-Source-Infrastruktur zur Bewertung von KI-Systemen mit Fokus auf reproduzierbare Verhaltensdaten, APIs und Entwicklungswerkzeuge.  
-`TypeScript` · `Python` · `KI-Evaluierung`
+### Ausgewählte öffentliche Projekte
 
-**[SunLionet](https://github.com/kaveh8866/Sunlionet)**  
-Offline-First-Werkzeuge für robuste Kommunikation und Netzwerkverbindungen, mit einem Entwicklungs-Stack auf Basis von Go.  
-`Go` · `Netzwerke` · `Local-first`
+| Projekt | Technischer Schwerpunkt | Technologien |
+| --- | --- | --- |
+| **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | Bewertung von KI-Systemen anhand reproduzierbarer Verhaltensdaten, APIs und Entwicklerwerkzeuge | TypeScript · Python |
+| **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-First-Werkzeuge für robuste Kommunikation und Netzwerkverbindungen | Go · Netzwerktechnik |
 
-### Technischer Werkzeugkasten
+### Technische Kenntnisse
 
-| Softwareentwicklung | Infrastruktur & Betrieb |
-| --- | --- |
-| Python · TypeScript / Node.js · Go · REST-APIs | Linux · Docker / Compose · Terraform / OpenTofu · GitHub Actions |
-| KI-Integrationen · Entwicklerwerkzeuge | OCI · GCP · AWS-Werkzeuge und -Architektur |
+- **Backend & Software:** Python, TypeScript / Node.js, Go, REST-APIs
+- **Infrastruktur & Deployment:** Linux, Docker / Compose, Terraform / OpenTofu, GitHub Actions
+- **Cloud & KI:** OCI, GCP, AWS-Werkzeuge und -Architektur, LLM-Integration, lokale Entwicklung
 
-### Eigenständige Softwareprojekte
+### Eigenständiges Projektportfolio
 
-Zusätzlich entwickle ich wiederverwendbare Projekte in den Bereichen **Backend, Observability, Sicherheit und Cloud-Automatisierung**. Jedes Projekt erhält ein eigenes Repository sowie eine englische und deutsche Dokumentation.
+Ich entwickle eine Sammlung kleiner, wiederverwendbarer Softwareprojekte für typische betriebliche Anforderungen – etwa Monitoring, Backups, Sicherheit, Hintergrundverarbeitung und Entwicklerautomatisierung.
+
+Jedes Projekt soll **ein eigenes Repository** mit Docker-Setup, englischer und deutscher Dokumentation sowie klaren Angaben zu tatsächlich getesteten Umgebungen erhalten. Geplante Projekte werden getrennt von veröffentlichten Arbeiten aufgeführt.
 
 **[Öffentliche und geplante Projekte ansehen](PORTFOLIO.de.md)**
 
-### Kontakt
+### Offen für berufliche Möglichkeiten in Deutschland
 
-Ich interessiere mich für **Stellenangebote in der Softwareentwicklung, im Backend-Bereich und im Cloud-/DevOps-Umfeld in Deutschland**.
+Ich interessiere mich für Positionen in der **Softwareentwicklung, Backend-Entwicklung und im Cloud-/DevOps-Bereich**, insbesondere mit Fokus auf zuverlässige, praxisnahe Systeme.
 
-[LinkedIn](https://www.linkedin.com/in/kaveh-mosafa-9b4339206/) · [GitHub-Repositories](https://github.com/kaveh8866?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/kaveh-mosafa-9b4339206/) · [Alle GitHub-Repositories](https://github.com/kaveh8866?tab=repositories)
