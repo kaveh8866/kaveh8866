@@ -16,7 +16,7 @@ In den veröffentlichten IBB-Kopien wurde das **Geburtsdatum entfernt**. Der Pr�
 
 ## AWS Training & Certification — abgeschlossene Lernmodule
 
-Diese sechs Dateien sind **Completion Certificates zu Prüfungsvorbereitungsmodulen** für SAP-C02. Sie belegen **keinen bestandenen Zertifizierungstest**. Die Originaltitel enthalten den Hinweis „[RETIRING - 2026-11-17]“.
+Diese sieben Dateien sind **Completion Certificates zu Prüfungsvorbereitungsmodulen** für SAP-C02. Sie belegen **keinen bestandenen Zertifizierungstest**. Die Originaltitel enthalten den Hinweis „[RETIRING - 2026-11-17]“.
 
 | Abschluss | Lernmodul | PDF |
 | --- | --- | --- |
@@ -24,6 +24,7 @@ Diese sechs Dateien sind **Completion Certificates zu Prüfungsvorbereitungsmodu
 | 2026-10-16 | Domain 2 Review (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-domain-2-review-2026-10-16.pdf) |
 | 2026-10-16 | Domain 3 Review (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-domain-3-review-2026-10-16.pdf) |
 | 2026-11-11 | Domain 4 Review (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-domain-4-review-2026-11-11.pdf) |
+| 2026-11-11 | Exam Prep Summary (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-exam-prep-summary-2026-11-11.pdf) |
 | 2026-02-15 | Exam Prep Plan Overview (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf) |
 | 2026-02-15 | Official Practice Question Set (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf) |
 

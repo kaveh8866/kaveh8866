@@ -45,6 +45,11 @@
       "file": "certificates/ibb-digitalisierte-arbeitswelt-2026-03-06.pdf",
       "sha256": "2bae8659272a90a242d4c29b62eb4a42646207de6bef02473cf8ab773050de5f",
       "bytes": 393732
+    },
+    {
+      "file": "certificates/aws-sap-c02-exam-prep-summary-2026-11-11.pdf",
+      "sha256": "767d5423e245cc0528d401a119c89ee5f5281a4c45a7363c94a2d17c9d33d2fa",
+      "bytes": 297015
     }
   ]
 }
