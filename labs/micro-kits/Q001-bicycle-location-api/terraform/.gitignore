@@ -1,7 +1,0 @@
-.terraform/
-.terraform.lock.hcl
-*.tfstate
-*.tfstate.*
-*.tfplan
-crash.log
-.q001-handler.zip
