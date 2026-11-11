@@ -68,4 +68,23 @@ for page in ("README.md", "README.de.md"):
     assert "CREDENTIALS" in (root / page).read_text()
     assert "SKILLS" in (root / page).read_text()
 
-print("Employer-facing bilingual profile, project links, training evidence schema: OK")
+# Check physical PDF evidence, exact content digests and conservative classifications.
+import hashlib
+manifest = json.loads((root / "portfolio" / "certificates-manifest.json").read_text(encoding="utf-8"))
+assert len(manifest["files"]) == 9
+for entry in manifest["files"]:
+    path = root / entry["file"]
+    assert path.is_file(), f"Missing certificate PDF: {entry['file']}"
+    raw = path.read_bytes()
+    assert raw.startswith(b"%PDF"), f"Not a PDF: {entry['file']}"
+    assert len(raw) == entry["bytes"], f"Wrong PDF size: {entry['file']}"
+    assert hashlib.sha256(raw).hexdigest() == entry["sha256"], f"Changed PDF: {entry['file']}"
+assert len(data["course_completions"]) == 6
+assert all(not item["vendor_professional_certification"] for item in data["course_completions"])
+assert len(data.get("cv_reported_training", [])) == 1
+assert data["cv_reported_training"][0]["certificate_document"] is None
+for language in ("", ".de"):
+    assert (root / f"EXPERIENCE{language}.md").is_file()
+    assert "EXPERIENCE" in (root / ("README.md" if not language else "README.de.md")).read_text()
+
+print("Bilingual portfolio and nine exact course completion PDFs verified: OK")

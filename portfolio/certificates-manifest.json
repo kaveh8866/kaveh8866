@@ -1,0 +1,50 @@
+{
+  "kind": "public_certificate_evidence",
+  "files": [
+    {
+      "file": "certificates/aws-sap-c02-domain-1-review-2026-08-06.pdf",
+      "sha256": "116a0abd51a46bd12f1350bc9cfa22ece5c43920d6e5ead1347dfbe4ecde0b56",
+      "bytes": 296753
+    },
+    {
+      "file": "certificates/aws-sap-c02-domain-2-review-2026-10-16.pdf",
+      "sha256": "17e8b557cb0b4c54cb402d6f2ac4f51f3b6786496f10f1cb1516dce48e3736cc",
+      "bytes": 296928
+    },
+    {
+      "file": "certificates/aws-sap-c02-domain-3-review-2026-10-16.pdf",
+      "sha256": "c97517e0d9ecf551af705e4be3d4e98b7bc5e0c7119470a84937bcc237e37a8a",
+      "bytes": 297053
+    },
+    {
+      "file": "certificates/aws-sap-c02-domain-4-review-2026-11-11.pdf",
+      "sha256": "98de51b76b787c67b49042e07e55aded3915897fd3dbaa9386b386245e8ad5fb",
+      "bytes": 296929
+    },
+    {
+      "file": "certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
+      "sha256": "6cceefed9bde111c069e30a9053c2effe93ffff9dc485690eb7a8081e1dfa91e",
+      "bytes": 297283
+    },
+    {
+      "file": "certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf",
+      "sha256": "dec7ff806c09eb111cd059269764faaa70f9082170f507d89d7a2e9f6fa26d1a",
+      "bytes": 297397
+    },
+    {
+      "file": "certificates/google-online-marketing-2022-05-29.pdf",
+      "sha256": "8cd2e3db8e9ccce3e843d1a1a1ba216a250ad438c82502c0e4985400b74c8e8a",
+      "bytes": 1066264
+    },
+    {
+      "file": "certificates/ibb-aws-architecture-course-600h-2026-03-06.pdf",
+      "sha256": "b349bd71fd6ff64727bc3ab9c18736ad1f37a5997aea89a3137ae525eb4fec36",
+      "bytes": 394655
+    },
+    {
+      "file": "certificates/ibb-digitalisierte-arbeitswelt-2026-03-06.pdf",
+      "sha256": "2bae8659272a90a242d4c29b62eb4a42646207de6bef02473cf8ab773050de5f",
+      "bytes": 393732
+    }
+  ]
+}
