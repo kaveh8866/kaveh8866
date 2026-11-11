@@ -189,7 +189,7 @@
       "kind": "training_completion",
       "duration_hours": 600,
       "aws_vendor_certification": false,
-      "public_scan_url": null,
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/ibb-aws-architecture-course-600h-2026-03-06.pdf",
       "issuer_verification_url": null
     },
     {
@@ -199,7 +199,7 @@
       "issuer": "IBB AG",
       "issued_on": "2026-03-06",
       "kind": "training_certificate",
-      "public_scan_url": null,
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/ibb-digitalisierte-arbeitswelt-2026-03-06.pdf",
       "issuer_verification_url": null
     },
     {
@@ -209,8 +209,75 @@
       "issuer": "Google Zukunftswerkstatt",
       "issued_on": "2022-05-29",
       "kind": "assessment_certificate",
-      "public_scan_url": null,
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/google-online-marketing-2022-05-29.pdf",
       "issuer_verification_url": "https://learndigital.withgoogle.com/link/1q49w0z9gqo"
+    }
+  ],
+  "course_completions": [
+    {
+      "title": "AWS SAP-C02 Domain 1 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-08-06",
+      "filename": "aws-sap-c02-domain-1-review-2026-08-06.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-1-review-2026-08-06.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Domain 2 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-10-16",
+      "filename": "aws-sap-c02-domain-2-review-2026-10-16.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-2-review-2026-10-16.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Domain 3 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-10-16",
+      "filename": "aws-sap-c02-domain-3-review-2026-10-16.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-3-review-2026-10-16.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Domain 4 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-11-11",
+      "filename": "aws-sap-c02-domain-4-review-2026-11-11.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-4-review-2026-11-11.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Exam Prep Plan Overview (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-02-15",
+      "filename": "aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Official Practice Question Set (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-02-15",
+      "filename": "aws-sap-c02-official-practice-questions-2026-02-15.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf",
+      "vendor_professional_certification": false
+    }
+  ],
+  "cv_reported_training": [
+    {
+      "name": "Online Zertifikat Programmierung mit Python und Data Science",
+      "period_start": "2020-03",
+      "period_end": "2020-07",
+      "source": "2020 historical Lebenslauf",
+      "issuer": null,
+      "certificate_document": null,
+      "status": "cv_reported_unverified"
     }
   ]
 }

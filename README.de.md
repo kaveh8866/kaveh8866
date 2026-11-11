@@ -37,6 +37,12 @@ Jedes Projekt soll **ein eigenes Repository** mit Docker-Setup, englischer und d
 
 **[Öffentliche und geplante Projekte ansehen](PORTFOLIO.de.md)**
 
+### Beruflicher Hintergrund
+
+Frühere Tätigkeiten in Selbstständigkeit, Kundenservice und betrieblichen Abläufen ergänzen meine technischen Projekte.
+
+[Beruflichen Hintergrund ansehen](EXPERIENCE.de.md)
+
 ### Offen für berufliche Möglichkeiten in Deutschland
 
 Ich interessiere mich für Positionen in der **Softwareentwicklung, Backend-Entwicklung und im Cloud-/DevOps-Bereich**, insbesondere mit Fokus auf zuverlässige, praxisnahe Systeme.

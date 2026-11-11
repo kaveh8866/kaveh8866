@@ -37,6 +37,12 @@ Each project will have **its own repository**, with Docker setup, English and Ge
 
 **[Explore public projects and upcoming work](PORTFOLIO.md)**
 
+### Professional background
+
+Earlier roles in independent business, customer service and operations complement my current technical work.
+
+[Professional background](EXPERIENCE.md)
+
 ### Open to opportunities in Germany
 
 Interested in **software development, backend and cloud / DevOps roles**, with an emphasis on building reliable, useful systems.
