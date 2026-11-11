@@ -16,7 +16,7 @@ The IBB scans are **redacted copies with date of birth removed**. The Google cer
 
 ## AWS Training & Certification — completed review activities
 
-These six PDFs are **learning-module completion receipts** for SAP-C02 preparation. They are **not exam passes, professional certifications, or accredited technical qualifications**. Course titles include the issuer's “[RETIRING - 2026-11-17]” label.
+These seven PDFs are **learning-module completion receipts** for SAP-C02 preparation. They are **not exam passes, professional certifications, or accredited technical qualifications**. Course titles include the issuer's “[RETIRING - 2026-11-17]” label.
 
 | Completed | Activity | Source PDF |
 | --- | --- | --- |
@@ -24,6 +24,7 @@ These six PDFs are **learning-module completion receipts** for SAP-C02 preparati
 | 2026-10-16 | Domain 2 Review (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-domain-2-review-2026-10-16.pdf) |
 | 2026-10-16 | Domain 3 Review (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-domain-3-review-2026-10-16.pdf) |
 | 2026-11-11 | Domain 4 Review (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-domain-4-review-2026-11-11.pdf) |
+| 2026-11-11 | Exam Prep Summary (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-exam-prep-summary-2026-11-11.pdf) |
 | 2026-02-15 | Exam Prep Plan Overview (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf) |
 | 2026-02-15 | Official Practice Question Set (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf) |
 

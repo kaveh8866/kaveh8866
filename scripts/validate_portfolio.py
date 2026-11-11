@@ -71,7 +71,11 @@ for page in ("README.md", "README.de.md"):
 # Check physical PDF evidence, exact content digests and conservative classifications.
 import hashlib
 manifest = json.loads((root / "portfolio" / "certificates-manifest.json").read_text(encoding="utf-8"))
-assert len(manifest["files"]) == 9
+assert manifest["files"], "Manifest must contain PDFs"
+registered_files = [entry["file"] for entry in manifest["files"]]
+assert len(registered_files) == len(set(registered_files)), "Duplicate PDF in manifest"
+actual_files = {str(path.relative_to(root)) for path in (root / "certificates").glob("*.pdf")}
+assert set(registered_files) == actual_files, "Untracked or missing certificate PDFs"
 for entry in manifest["files"]:
     path = root / entry["file"]
     assert path.is_file(), f"Missing certificate PDF: {entry['file']}"
@@ -79,7 +83,13 @@ for entry in manifest["files"]:
     assert raw.startswith(b"%PDF"), f"Not a PDF: {entry['file']}"
     assert len(raw) == entry["bytes"], f"Wrong PDF size: {entry['file']}"
     assert hashlib.sha256(raw).hexdigest() == entry["sha256"], f"Changed PDF: {entry['file']}"
-assert len(data["course_completions"]) == 6
+assert data["course_completions"], "Course completion list must not be empty"
+completion_filenames = [row["filename"] for row in data["course_completions"]]
+assert len(completion_filenames) == len(set(completion_filenames)), "Duplicate course completions"
+for row in data["course_completions"]:
+    assert "certificates/" + row["filename"] in actual_files, "Course PDF missing: " + row["filename"]
+    assert row["kind"] == "training_module_completion"
+    assert row["public_scan_url"] == "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/" + row["filename"]
 assert all(not item["vendor_professional_certification"] for item in data["course_completions"])
 assert len(data.get("cv_reported_training", [])) == 1
 assert data["cv_reported_training"][0]["certificate_document"] is None
@@ -87,4 +97,4 @@ for language in ("", ".de"):
     assert (root / f"EXPERIENCE{language}.md").is_file()
     assert "EXPERIENCE" in (root / ("README.md" if not language else "README.de.md")).read_text()
 
-print("Bilingual portfolio and nine exact course completion PDFs verified: OK")
+print(f"Bilingual portfolio and {len(manifest['files'])} exact certificate PDFs verified: OK")
