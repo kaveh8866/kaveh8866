@@ -1,5 +1,6 @@
-"""Lightweight validation for the public profile and its portfolio registry."""
+"""Validate the concise bilingual profile and project metadata offline."""
 import json
+import re
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
@@ -19,10 +20,14 @@ for p in projects:
     if p["status"] in ("cloud_verified", "published"):
         assert p["repository"], f"Project requires a published link: {p['id']}"
     assert isinstance(p["verified_providers"], list)
-for path in ["README.md", "README.de.md", "PORTFOLIO.md", "PORTFOLIO.de.md"]:
-    text = (root / path).read_text(encoding="utf-8")
-    assert "SAA-C03" not in text and "micro-lab" not in text.lower(), path
-for repo in data["featured_public_repositories"]:
-    assert repo["repository"].startswith("https://github.com/"), repo
+for page in ["README.md", "README.de.md", "PORTFOLIO.md", "PORTFOLIO.de.md"]:
+    text = (root / page).read_text(encoding="utf-8")
+    assert "SAA-C03" not in text and "micro-lab" not in text.lower(), page
+    assert len(text) < 4800, f"Page too long for concise hiring portfolio: {page}"
+    for link in re.findall(r"\]\(([^)]+)\)", text):
+        if "://" not in link and not link.startswith("#"):
+            assert (root / link.split("#", 1)[0]).exists(), f"Broken local link {link} in {page}"
+for listed in data["featured_public_repositories"]:
+    assert listed["repository"].startswith("https://github.com/"), listed
 assert data["certifications"] == [], "Do not invent or pre-list certifications"
-print("Profile and portfolio registry structure: OK")
+print("Bilingual profile links, concise content and portfolio registry: OK")

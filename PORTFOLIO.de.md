@@ -1,29 +1,39 @@
-# Technisches Projektportfolio
+# Projektportfolio
 
-[English](PORTFOLIO.md) · [Profil](README.de.md)
+[English](PORTFOLIO.md) · [Zurück zum Profil](README.de.md)
 
-Eine übersichtliche Sammlung öffentlicher Projekte und geplanter eigenständiger Entwicklungen. **Geplant bedeutet nicht fertiggestellt.** Meine private Entwicklungs- und Orchestrierungsumgebung wird hier nicht veröffentlicht.
+## Öffentliche Projekte
 
-## Ausgewählte öffentliche Repositories
+**[SemantIQ — KI-Evaluierungsinfrastruktur](https://github.com/Logorythmus-org/Semantiq)**  
+Ein reproduzierbares Framework für die Auswertung von KI-Systemen und die Erfassung nachvollziehbarer Verhaltensdaten. Im Repository finden sich Implementierung, APIs/SDKs und Anwendungsdokumentation.
 
-- [SemantIQ](https://github.com/Logorythmus-org/Semantiq) — KI-Evaluierung mit reproduzierbaren Ergebnissen.
-- [SunLionet](https://github.com/kaveh8866/Sunlionet) — Offline-First-Werkzeuge für robuste Netzwerkverbindungen.
+**[SunLionet — Werkzeuge für robuste Netzwerke](https://github.com/kaveh8866/Sunlionet)**  
+Ein Offline-First-Projekt für widerstandsfähige Verbindungen und verteilte Konfigurationen mit Go-basierten Komponenten.
 
-## Geplante Projekte
+## Eigenständige Softwareprojekte — in Vorbereitung
 
-| Nr. | Projekt | Status |
-| --- | --- | --- |
-| 01 | Zentrale Log-Sammlung | Geplant |
-| 02 | Sicherer Reverse-Proxy mit WAF-Sandbox | Geplant |
-| 03 | Automatisierte Datenbank-Backups und Object-Storage-Sync | Geplant |
-| 04 | Verfügbarkeits- und Endpunkt-Monitoring | Geplant |
-| 05 | Internes Dokumentationsportal | Geplant |
-| 06 | Identitäts- und Single-Sign-On-Gateway | Geplant |
-| 07 | Hintergrundverarbeitung mit Warteschlange | Geplant |
-| 08 | Sandbox zur Geheimnisverwaltung | Geplant |
-| 09 | Sicherer Datei-Upload und Asset-Service | Geplant |
-| 10 | CI/CD-Sicherheits- und Compliance-Scanner | Geplant |
+Eine weitere Projektreihe beschäftigt sich mit praxisnahen, containerisierten Lösungen für typische betriebliche Anforderungen. **Links zu neuen Repositories werden erst nach ihrer öffentlichen Veröffentlichung ergänzt.** Ob ein Deployment getestet wurde, ist ausschließlich in der jeweiligen Projektdokumentation angegeben.
 
-Sobald ein Projekt veröffentlicht ist, wird sein eigenes Repository verlinkt. Dort finden sich die Docker-Anleitung, Infrastrukturvoraussetzungen, tatsächlich getestete Cloud-Anbieter, Einschränkungen und Schritte zur Wiederverwendung.
+Aktuelle Schwerpunkte: sichere Reverse-Proxys, automatische Datenbank-Backups, Hintergrundverarbeitung, Monitoring und Entwicklerautomatisierung.
 
-**[Maschinenlesbares Projektverzeichnis](portfolio/projects.json)**
+<details>
+<summary>Alle 10 geplanten Projekte anzeigen</summary>
+
+| Nr. | Geplantes Projekt |
+| --- | --- |
+| 01 | Zentrale Log-Sammlung |
+| 02 | Sicherer Reverse-Proxy mit WAF-Sandbox |
+| 03 | Automatisierte Datenbank-Backups und Object-Storage-Sync |
+| 04 | Verfügbarkeits- und Endpunkt-Monitoring |
+| 05 | Internes Dokumentationsportal |
+| 06 | Identitäts- und Single-Sign-On-Gateway |
+| 07 | Hintergrundverarbeitung mit Warteschlange |
+| 08 | Sandbox zur Geheimnisverwaltung |
+| 09 | Sicherer Datei-Upload und Asset-Service |
+| 10 | CI/CD-Sicherheits- und Compliance-Scanner |
+
+</details>
+
+[Projektverzeichnis (strukturierte Metadaten)](portfolio/projects.json)
+
+*Zertifikate werden nach Erwerb und Verifizierung ergänzt.*

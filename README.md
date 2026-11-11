@@ -1,34 +1,35 @@
 # Hi, I'm @kaveh8866
 
-**Software Developer · Cloud & DevOps · AI Systems**
+**Software Developer · Backend · Cloud / DevOps · AI Systems**  
+Based in Germany · [Deutsch](README.de.md) · [Project portfolio](PORTFOLIO.md)
 
-[Deutsch](README.de.md) · [Portfolio](PORTFOLIO.md) · [LinkedIn](https://www.linkedin.com/in/kaveh-mosafa-9b4339206/)
+I develop practical software and infrastructure tools with a focus on **maintainability, portable deployments, automation and reasonable operating costs**. My work spans backend services, cloud tooling, local-first systems and AI integrations.
 
-I'm an independent developer based in Germany, building practical software, cloud infrastructure and AI-enabled tools. I focus on **portable deployments, clear architecture, automation, security and sensible operating costs**.
+### Selected work
 
-### Selected public work
+**[SemantIQ](https://github.com/Logorythmus-org/Semantiq)**  
+Open-source evaluation infrastructure for AI systems, focused on reproducible behavioral evidence, APIs and developer tooling.  
+`TypeScript` · `Python` · `AI evaluation`
 
-- **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** — open-source infrastructure for evaluating AI systems and working with reproducible behavioral evidence.
-- **[SunLionet](https://github.com/kaveh8866/Sunlionet)** — offline-first, resilient communication and networking tools, primarily developed in Go.
+**[SunLionet](https://github.com/kaveh8866/Sunlionet)**  
+Offline-first tools for resilient communication and network connectivity, with a Go-based development workflow.  
+`Go` · `Networking` · `Local-first`
 
-### Tools & technologies
+### Technical toolbox
 
-**Software:** Python · TypeScript / Node.js · Go · REST APIs  
-**Infrastructure:** Linux · Docker / Compose · Terraform / OpenTofu · GitHub Actions  
-**Cloud & AI:** OCI · GCP · AWS · LLM integration · local development
+| Software development | Infrastructure & operations |
+| --- | --- |
+| Python · TypeScript / Node.js · Go · REST APIs | Linux · Docker / Compose · Terraform / OpenTofu · GitHub Actions |
+| AI integrations · developer tooling | OCI · GCP · AWS tooling and architecture |
 
-### Current focus
+### Independent project portfolio
 
-I'm creating a collection of **small, useful, independent software projects** around backend services, observability, security, automation and infrastructure. The goal is straightforward: software that others can run, inspect and adapt.
+I'm also developing standalone, reusable projects in **backend, observability, security and cloud automation**. Each will have its own repository and documentation in English and German.
 
-Each new project is intended to include Docker-based setup, reproducible infrastructure where relevant, English and German documentation, and honest notes on what was actually tested. Projects are listed as **planned** until they are ready.
+**[View published work and upcoming projects](PORTFOLIO.md)**
 
-**[Explore the project portfolio →](PORTFOLIO.md)**
+### Let's connect
 
-### Connect
+I'm interested in **software development, backend and cloud/DevOps opportunities in Germany**.
 
-I'm interested in software development, backend, cloud and DevOps opportunities in Germany.
-
-[GitHub](https://github.com/kaveh8866) · [LinkedIn](https://www.linkedin.com/in/kaveh-mosafa-9b4339206/)
-
-*This profile is a concise index of public work and ongoing engineering projects. Certifications will be listed only after they are earned and verified.*
+[LinkedIn](https://www.linkedin.com/in/kaveh-mosafa-9b4339206/) · [GitHub repositories](https://github.com/kaveh8866?tab=repositories)
