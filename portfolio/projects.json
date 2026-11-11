@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Employment-focused portfolio registry; CloudGuard remains private.",
+  "featured_public_repositories": [
+    {
+      "name": "SemantIQ",
+      "repository": "https://github.com/Logorythmus-org/Semantiq",
+      "category": "AI evaluation infrastructure"
+    },
+    {
+      "name": "SunLionet",
+      "repository": "https://github.com/kaveh8866/Sunlionet",
+      "category": "Resilient communication tools"
+    }
+  ],
+  "planned_projects": [
+    {
+      "id": "01",
+      "slug": "centralized-log-aggregator",
+      "title": "Centralized Log Aggregator",
+      "title_de": "Zentrale Log-Sammlung",
+      "category": "observability",
+      "tech": [
+        "Fluent Bit",
+        "Loki",
+        "Grafana",
+        "Docker Compose"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "02",
+      "slug": "secure-reverse-proxy",
+      "title": "Secure Reverse Proxy & WAF Sandbox",
+      "title_de": "Sicherer Reverse-Proxy mit WAF-Sandbox",
+      "category": "security",
+      "tech": [
+        "Caddy",
+        "Docker",
+        "OpenTofu"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "03",
+      "slug": "automated-db-backup",
+      "title": "Automated Database Backup & Object Storage Sync",
+      "title_de": "Automatisierte Datenbank-Backups und Object-Storage-Sync",
+      "category": "reliability",
+      "tech": [
+        "Python",
+        "PostgreSQL",
+        "S3 API",
+        "Docker"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "04",
+      "slug": "uptime-monitoring",
+      "title": "Uptime & Endpoint Monitoring",
+      "title_de": "Verfügbarkeits- und Endpunkt-Monitoring",
+      "category": "observability",
+      "tech": [
+        "Uptime Kuma",
+        "Docker Compose"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "05",
+      "slug": "internal-docs-portal",
+      "title": "Internal Documentation Portal",
+      "title_de": "Internes Dokumentationsportal",
+      "category": "developer-tools",
+      "tech": [
+        "MkDocs",
+        "GitHub Actions",
+        "Docker"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "06",
+      "slug": "identity-sso-gateway",
+      "title": "Identity & Single Sign-On Gateway",
+      "title_de": "Identitäts- und Single-Sign-On-Gateway",
+      "category": "security",
+      "tech": [
+        "Keycloak",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "07",
+      "slug": "background-job-worker",
+      "title": "Background Job Processing Worker",
+      "title_de": "Hintergrundverarbeitung mit Warteschlange",
+      "category": "backend",
+      "tech": [
+        "Python",
+        "Redis",
+        "RQ",
+        "Docker"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "08",
+      "slug": "secrets-management-sandbox",
+      "title": "Secrets Management Sandbox",
+      "title_de": "Sandbox zur Geheimnisverwaltung",
+      "category": "security",
+      "tech": [
+        "Vault",
+        "Docker",
+        "OpenTofu"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "09",
+      "slug": "secure-asset-upload",
+      "title": "Secure File Upload & Asset Service",
+      "title_de": "Sicherer Datei-Upload und Asset-Service",
+      "category": "backend",
+      "tech": [
+        "Python",
+        "S3 API",
+        "Docker"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    },
+    {
+      "id": "10",
+      "slug": "ci-security-scanner",
+      "title": "CI/CD Security & Compliance Scanner",
+      "title_de": "CI/CD-Sicherheits- und Compliance-Scanner",
+      "category": "devsecops",
+      "tech": [
+        "GitHub Actions",
+        "Trivy",
+        "Gitleaks"
+      ],
+      "status": "planned",
+      "repository": null,
+      "verified_providers": [],
+      "notes": "Independent repository will be linked only after it is publicly available."
+    }
+  ],
+  "certifications": []
+}
