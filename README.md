@@ -15,9 +15,19 @@ I build practical software and infrastructure tools—from backend services and 
 
 ### Technical skills
 
-- **Backend & software:** Python, TypeScript / Node.js, Go, REST APIs
-- **Infrastructure & delivery:** Linux, Docker / Compose, Terraform / OpenTofu, GitHub Actions
-- **Cloud & AI:** OCI, GCP, AWS tooling and architecture, LLM integrations, local-first development
+- **Software & APIs:** Python · TypeScript / JavaScript · Node.js · Go · FastAPI · Express · REST APIs
+- **Web & data:** React · Next.js · Tailwind CSS · PostgreSQL · SQLite
+- **Infrastructure:** Linux · Docker / Compose · Terraform / OpenTofu · GitHub Actions · OCI · GCP · AWS tooling
+- **AI & automation:** LLM APIs · Ollama · local models · agent workflows · MCP
+
+[Full technical skills overview](SKILLS.md)
+
+### Certificates & training
+
+- **IBB AG (2026):** 600-hour AWS architecture training for SAP-C02 preparation — *IBB completion certificate, not an AWS-issued certification*.
+- **Google Zukunftswerkstatt (2022):** Fundamentals of Online Marketing — certificate after assessment.
+
+[Certificates and training details](CREDENTIALS.md)
 
 ### Independent engineering portfolio
 

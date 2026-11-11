@@ -177,5 +177,40 @@
       "notes": "Independent repository will be linked only after it is publicly available."
     }
   ],
-  "certifications": []
+  "certifications": [],
+  "training_credentials": [
+    {
+      "id": "ibb-aws-training-2026",
+      "name": "SAP-C02 preparatory AWS architecture training (600 hours)",
+      "name_de": "600-stündige AWS-Architektur-Weiterbildung (SAP-C02-Vorbereitung)",
+      "issuer": "IBB AG",
+      "issued_on": "2026-03-06",
+      "training_started_on": "2025-12-08",
+      "kind": "training_completion",
+      "duration_hours": 600,
+      "aws_vendor_certification": false,
+      "public_scan_url": null,
+      "issuer_verification_url": null
+    },
+    {
+      "id": "ibb-digital-workplace-2026",
+      "name": "Digitalisierte Arbeitswelt 4.0 — Lernen und Arbeiten in einer digitalen Lernumgebung",
+      "name_de": "Digitalisierte Arbeitswelt 4.0 — Lernen und Arbeiten in einer digitalen Lernumgebung",
+      "issuer": "IBB AG",
+      "issued_on": "2026-03-06",
+      "kind": "training_certificate",
+      "public_scan_url": null,
+      "issuer_verification_url": null
+    },
+    {
+      "id": "google-digital-marketing-2022",
+      "name": "Fundamentals of Online Marketing",
+      "name_de": "Grundlagen des Onlinemarketings",
+      "issuer": "Google Zukunftswerkstatt",
+      "issued_on": "2022-05-29",
+      "kind": "assessment_certificate",
+      "public_scan_url": null,
+      "issuer_verification_url": "https://learndigital.withgoogle.com/link/1q49w0z9gqo"
+    }
+  ]
 }

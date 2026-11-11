@@ -15,9 +15,19 @@ Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge – von Backend-Di
 
 ### Technische Kenntnisse
 
-- **Backend & Software:** Python, TypeScript / Node.js, Go, REST-APIs
-- **Infrastruktur & Deployment:** Linux, Docker / Compose, Terraform / OpenTofu, GitHub Actions
-- **Cloud & KI:** OCI, GCP, AWS-Werkzeuge und -Architektur, LLM-Integration, lokale Entwicklung
+- **Software & APIs:** Python · TypeScript / JavaScript · Node.js · Go · FastAPI · Express · REST-APIs
+- **Web & Daten:** React · Next.js · Tailwind CSS · PostgreSQL · SQLite
+- **Infrastruktur:** Linux · Docker / Compose · Terraform / OpenTofu · GitHub Actions · OCI · GCP · AWS-Werkzeuge
+- **KI & Automatisierung:** LLM-APIs · Ollama · lokale Modelle · Agenten-Workflows · MCP
+
+[Ausführlicher Technologieüberblick](SKILLS.de.md)
+
+### Zertifikate & Weiterbildung
+
+- **IBB AG (2026):** 600-stündige AWS-Architektur-Weiterbildung zur SAP-C02-Vorbereitung — *IBB-Abschlusszertifikat, keine offizielle AWS-Zertifizierung*.
+- **Google Zukunftswerkstatt (2022):** Grundlagen des Onlinemarketings — Zertifikat nach erfolgreicher Prüfung.
+
+[Zertifikate und Weiterbildung](CREDENTIALS.de.md)
 
 ### Eigenständiges Projektportfolio
 
