@@ -48,4 +48,24 @@ for credential in credentials:
     parsed = urlparse(credential["verification_url"])
     assert parsed.scheme == "https" and parsed.netloc, "Verification link must be HTTPS"
 
-print("Employer-facing bilingual profile, project links and credential schema: OK")
+training = data.get("training_credentials", [])
+assert isinstance(training, list)
+assert len({row["id"] for row in training}) == len(training), "Duplicate training credential"
+for row in training:
+    for key in ("id", "name", "name_de", "issuer", "issued_on", "kind"):
+        assert isinstance(row.get(key), str) and row[key], f"Missing training field {key}"
+    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", row["issued_on"])
+    assert row["kind"] in {"training_completion", "training_certificate", "assessment_certificate"}
+    if row.get("public_scan_url"):
+        assert row["public_scan_url"].startswith("https://github.com/"), "Public evidence must be a GitHub URL"
+    if row.get("issuer_verification_url"):
+        u = urlparse(row["issuer_verification_url"])
+        assert u.scheme == "https" and u.netloc
+
+for page in ("CREDENTIALS.md", "CREDENTIALS.de.md", "SKILLS.md", "SKILLS.de.md"):
+    assert (root / page).is_file(), f"Missing bilingual document {page}"
+for page in ("README.md", "README.de.md"):
+    assert "CREDENTIALS" in (root / page).read_text()
+    assert "SKILLS" in (root / page).read_text()
+
+print("Employer-facing bilingual profile, project links, training evidence schema: OK")
