@@ -50,6 +50,11 @@
       "file": "certificates/aws-sap-c02-exam-prep-summary-2026-11-11.pdf",
       "sha256": "767d5423e245cc0528d401a119c89ee5f5281a4c45a7363c94a2d17c9d33d2fa",
       "bytes": 297015
+    },
+    {
+      "file": "certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf",
+      "sha256": "237c12a9c33deae54b7c18f7e9379a5fadc87257dc424661655c573ae797ef4c",
+      "bytes": 295987
     }
   ]
 }

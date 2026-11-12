@@ -28,6 +28,14 @@ These seven PDFs are **learning-module completion receipts** for SAP-C02 prepara
 | 2026-02-15 | Exam Prep Plan Overview (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf) |
 | 2026-02-15 | Official Practice Question Set (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf) |
 
+## Additional AWS course completion — Amazon Kiro
+
+| Completed | Course | Source PDF |
+| --- | --- | --- |
+| **2026-11-12** | Accelerate Physical AI Development from Prototype to Production with Amazon Kiro | [Completion Certificate](certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf) |
+
+This document certifies **completion of a training course**, not a vendor-level professional exam or proof of deploying Physical AI systems.
+
 ## Python & Data Science — earlier CV entry
 
 A **2020 Lebenslauf** records “Online Zertifikat Programmierung mit Python und Data Science”, dated **03/2020–07/2020**. The issuing institution and original certificate are **not yet available in the documents reviewed**. This is therefore a **CV-reported online course**, not a verified certificate scan. The old CV does **not** establish two distinct Python certificates; a second item will only be added when its source is found.

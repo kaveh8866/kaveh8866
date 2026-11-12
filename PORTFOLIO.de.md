@@ -10,20 +10,25 @@ Ein reproduzierbares Framework für die Auswertung von KI-Systemen und die Erfas
 **[SunLionet — Werkzeuge für robuste Netzwerke](https://github.com/kaveh8866/Sunlionet)**  
 Ein Offline-First-Projekt für widerstandsfähige Verbindungen und verteilte Konfigurationen mit Go-basierten Komponenten.
 
-## Eigenständige Softwareprojekte — in Vorbereitung
+## Eigenständige Projekte — öffentlich verfügbar
 
-Eine weitere Projektreihe beschäftigt sich mit praxisnahen, containerisierten Lösungen für typische betriebliche Anforderungen. **Links zu neuen Repositories werden erst nach ihrer öffentlichen Veröffentlichung ergänzt.** Ob ein Deployment getestet wurde, ist ausschließlich in der jeweiligen Projektdokumentation angegeben.
+| Projekt | Zweck | Dokumentierter Teststand |
+| --- | --- | --- |
+| **[Zentrale Log-Sammlung](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Logs sammeln und auswerten | Lokal + OCI-Test (laut Repository) |
+| **[Sicherer Reverse-Proxy mit WAF-Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse-Proxy, Ratenbegrenzung und WAF-Regeln | Lokal + OCI-Test (laut Repository) |
+| **[Automatisierte Datenbank-Backups](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL-Backups, Prüfsummen und Restore | Backup/Restore lokal geprüft; OCI noch nicht getestet |
 
-Aktuelle Schwerpunkte: sichere Reverse-Proxys, automatische Datenbank-Backups, Hintergrundverarbeitung, Monitoring und Entwicklerautomatisierung.
+Die Angaben zum Teststand stammen aus den jeweiligen Projekt-READMEs und Nachweisen. Sie wurden **hier nicht unabhängig reproduziert**. Portabilität bedeutet nicht, dass bereits alle Cloud-Anbieter getestet wurden.
+
+## Weitere Projekte — geplant
+
+Die übrigen sieben Projekte der Reihe sind noch nicht als eigenständige Repositories veröffentlicht:
 
 <details>
-<summary>Alle 10 geplanten Projekte anzeigen</summary>
+<summary>Geplante Projekte 04–10 anzeigen</summary>
 
-| Nr. | Geplantes Projekt |
+| Nr. | Projekt |
 | --- | --- |
-| 01 | Zentrale Log-Sammlung |
-| 02 | Sicherer Reverse-Proxy mit WAF-Sandbox |
-| 03 | Automatisierte Datenbank-Backups und Object-Storage-Sync |
 | 04 | Verfügbarkeits- und Endpunkt-Monitoring |
 | 05 | Internes Dokumentationsportal |
 | 06 | Identitäts- und Single-Sign-On-Gateway |
@@ -36,4 +41,4 @@ Aktuelle Schwerpunkte: sichere Reverse-Proxys, automatische Datenbank-Backups, H
 
 [Projektverzeichnis (strukturierte Metadaten)](portfolio/projects.json)
 
-*Zertifikate werden nach Erwerb und Verifizierung ergänzt.*
+[Weiterbildungsnachweise und Kursabschlüsse](CREDENTIALS.de.md)

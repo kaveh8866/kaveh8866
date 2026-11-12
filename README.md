@@ -10,6 +10,9 @@ I build practical software and infrastructure tools—from backend services and 
 
 | Project | Engineering focus | Main technologies |
 | --- | --- | --- |
+| **[Centralized Log Aggregator](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Log collection, search and dashboards; OCI run documented | Fluent Bit · Loki · Grafana · Docker |
+| **[Secure Reverse Proxy & WAF Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse proxy, rate limiting and WAF rules; OCI run documented | Caddy · Docker · OpenTofu |
+| **[Automated DB Backup & Cloud Sync](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL backup, checksum and restore; local test documented | PostgreSQL · rclone · Docker · OpenTofu |
 | **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | Evaluating AI systems with reproducible behavioral evidence, APIs and developer tools | TypeScript · Python |
 | **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-first tools for resilient communication and network connectivity | Go · Networking |
 
@@ -31,9 +34,7 @@ I build practical software and infrastructure tools—from backend services and 
 
 ### Independent engineering portfolio
 
-I'm developing a collection of small, reusable projects addressing real operational needs—monitoring, backups, security, background processing and developer automation.
-
-Each project will have **its own repository**, with Docker setup, English and German documentation, and clear notes on the environments actually tested. Upcoming projects are listed separately from published work.
+My independent repositories now include **log aggregation, secure reverse proxying and automated PostgreSQL backups**. Each has its own Docker and OpenTofu setup and describes its actual test scope; only the first two report live OCI trials. More projects are in preparation, and bilingual project-level documentation will be added as it becomes available.
 
 **[Explore public projects and upcoming work](PORTFOLIO.md)**
 
