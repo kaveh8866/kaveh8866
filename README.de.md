@@ -10,6 +10,9 @@ Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge – von Backend-Di
 
 | Projekt | Technischer Schwerpunkt | Technologien |
 | --- | --- | --- |
+| **[Zentrale Log-Sammlung](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Logs sammeln und auswerten; OCI-Test dokumentiert | Fluent Bit · Loki · Grafana · Docker |
+| **[Sicherer Reverse-Proxy mit WAF-Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse-Proxy, Ratenbegrenzung und WAF-Regeln; OCI-Test dokumentiert | Caddy · Docker · OpenTofu |
+| **[Automatisierte Datenbank-Backups](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL-Backups, Prüfsummen und Restore; lokal getestet | PostgreSQL · rclone · Docker · OpenTofu |
 | **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | Bewertung von KI-Systemen anhand reproduzierbarer Verhaltensdaten, APIs und Entwicklerwerkzeuge | TypeScript · Python |
 | **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-First-Werkzeuge für robuste Kommunikation und Netzwerkverbindungen | Go · Netzwerktechnik |
 
@@ -31,9 +34,7 @@ Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge – von Backend-Di
 
 ### Eigenständiges Projektportfolio
 
-Ich entwickle eine Sammlung kleiner, wiederverwendbarer Softwareprojekte für typische betriebliche Anforderungen – etwa Monitoring, Backups, Sicherheit, Hintergrundverarbeitung und Entwicklerautomatisierung.
-
-Jedes Projekt soll **ein eigenes Repository** mit Docker-Setup, englischer und deutscher Dokumentation sowie klaren Angaben zu tatsächlich getesteten Umgebungen erhalten. Geplante Projekte werden getrennt von veröffentlichten Arbeiten aufgeführt.
+Zu meinen eigenständigen Projekten zählen inzwischen **zentrale Log-Sammlung, ein sicherer Reverse-Proxy und automatisierte PostgreSQL-Backups**. Die Repositories enthalten Docker- und OpenTofu-Konfigurationen mit Angaben zum jeweiligen Teststand. Für die ersten beiden Projekte sind OCI-Testläufe dokumentiert; das Backup-Projekt wurde bisher lokal geprüft. Weitere Projekte sowie zusätzliche deutschsprachige Projektdokumentationen folgen.
 
 **[Öffentliche und geplante Projekte ansehen](PORTFOLIO.de.md)**
 

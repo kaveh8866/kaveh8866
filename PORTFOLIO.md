@@ -10,20 +10,25 @@ A reproducible framework for behavioral evidence and evaluation of AI systems. T
 **[SunLionet — Resilient networking tools](https://github.com/kaveh8866/Sunlionet)**  
 An offline-first project exploring resilient connectivity and distributed configuration, with Go-based components.
 
-## Independent software projects — in preparation
+## Independent engineering projects — publicly available
 
-A separate series of practical, containerized software projects is being developed around common operational needs. **These repositories will be linked only when publicly available.** Deployment/test status is documented within each project's repository, not inferred from the project title.
+| Project | Main purpose | Reported verification |
+| --- | --- | --- |
+| **[Centralized Log Aggregator](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Log collection, search and dashboards | Local + OCI trial (per repository) |
+| **[Secure Reverse Proxy & WAF Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse proxy, rate limiting and WAF rules | Local + OCI trial (per repository) |
+| **[Automated DB Backup & Cloud Sync](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL backup, checksum and restore | Local backup/restore; OCI not yet tested |
 
-Current focus: secure reverse proxying, automated database backup, background job processing, monitoring and developer automation.
+The verification column reflects the project's own README and evidence files; it is **not an independent re-test**. Cloud portability is a design goal, not proof of deployment on every provider.
+
+## Next projects — planned
+
+The remaining seven portfolio projects have not yet been published as standalone repositories:
 
 <details>
-<summary>View all 10 planned projects</summary>
+<summary>View the remaining planned projects (04–10)</summary>
 
 | # | Planned project |
 | --- | --- |
-| 01 | Centralized Log Aggregator |
-| 02 | Secure Reverse Proxy & WAF Sandbox |
-| 03 | Automated Database Backup & Object Storage Sync |
 | 04 | Uptime & Endpoint Monitoring |
 | 05 | Internal Documentation Portal |
 | 06 | Identity & Single Sign-On Gateway |
@@ -36,4 +41,4 @@ Current focus: secure reverse proxying, automated database backup, background jo
 
 [Project registry (structured metadata)](portfolio/projects.json)
 
-*Certifications will be listed when obtained and verifiable.*
+[Course-completion certificates and training](CREDENTIALS.md)

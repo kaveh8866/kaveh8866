@@ -11,9 +11,146 @@
       "name": "SunLionet",
       "repository": "https://github.com/kaveh8866/Sunlionet",
       "category": "Resilient communication tools"
+    },
+    {
+      "name": "Centralized Log Aggregator",
+      "repository": "https://github.com/kaveh8866/Centralized-Log-Aggregator",
+      "category": "observability"
+    },
+    {
+      "name": "Secure Reverse Proxy & WAF Sandbox",
+      "repository": "https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox",
+      "category": "security"
+    },
+    {
+      "name": "Automated DB Backup & Cloud Sync",
+      "repository": "https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync",
+      "category": "reliability"
     }
   ],
-  "planned_projects": [
+  "certifications": [],
+  "training_credentials": [
+    {
+      "id": "ibb-aws-training-2026",
+      "name": "SAP-C02 preparatory AWS architecture training (600 hours)",
+      "name_de": "600-stündige AWS-Architektur-Weiterbildung (SAP-C02-Vorbereitung)",
+      "issuer": "IBB AG",
+      "issued_on": "2026-03-06",
+      "training_started_on": "2025-12-08",
+      "kind": "training_completion",
+      "duration_hours": 600,
+      "aws_vendor_certification": false,
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/ibb-aws-architecture-course-600h-2026-03-06.pdf",
+      "issuer_verification_url": null
+    },
+    {
+      "id": "ibb-digital-workplace-2026",
+      "name": "Digitalisierte Arbeitswelt 4.0 — Lernen und Arbeiten in einer digitalen Lernumgebung",
+      "name_de": "Digitalisierte Arbeitswelt 4.0 — Lernen und Arbeiten in einer digitalen Lernumgebung",
+      "issuer": "IBB AG",
+      "issued_on": "2026-03-06",
+      "kind": "training_certificate",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/ibb-digitalisierte-arbeitswelt-2026-03-06.pdf",
+      "issuer_verification_url": null
+    },
+    {
+      "id": "google-digital-marketing-2022",
+      "name": "Fundamentals of Online Marketing",
+      "name_de": "Grundlagen des Onlinemarketings",
+      "issuer": "Google Zukunftswerkstatt",
+      "issued_on": "2022-05-29",
+      "kind": "assessment_certificate",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/google-online-marketing-2022-05-29.pdf",
+      "issuer_verification_url": "https://learndigital.withgoogle.com/link/1q49w0z9gqo"
+    }
+  ],
+  "course_completions": [
+    {
+      "title": "AWS SAP-C02 Domain 1 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-08-06",
+      "filename": "aws-sap-c02-domain-1-review-2026-08-06.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-1-review-2026-08-06.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Domain 2 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-10-16",
+      "filename": "aws-sap-c02-domain-2-review-2026-10-16.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-2-review-2026-10-16.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Domain 3 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-10-16",
+      "filename": "aws-sap-c02-domain-3-review-2026-10-16.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-3-review-2026-10-16.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Domain 4 Review (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-11-11",
+      "filename": "aws-sap-c02-domain-4-review-2026-11-11.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-4-review-2026-11-11.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Exam Prep Plan Overview (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-02-15",
+      "filename": "aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Official Practice Question Set (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-02-15",
+      "filename": "aws-sap-c02-official-practice-questions-2026-02-15.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "AWS SAP-C02 Exam Prep Summary (English)",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-11-11",
+      "filename": "aws-sap-c02-exam-prep-summary-2026-11-11.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-exam-prep-summary-2026-11-11.pdf",
+      "vendor_professional_certification": false
+    },
+    {
+      "title": "Accelerate Physical AI Development from Prototype to Production with Amazon Kiro",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-11-12",
+      "filename": "aws-kiro-physical-ai-prototype-production-2026-11-12.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf",
+      "vendor_professional_certification": false,
+      "program": "Amazon Kiro / Physical AI"
+    }
+  ],
+  "cv_reported_training": [
+    {
+      "name": "Online Zertifikat Programmierung mit Python und Data Science",
+      "period_start": "2020-03",
+      "period_end": "2020-07",
+      "source": "2020 historical Lebenslauf",
+      "issuer": null,
+      "certificate_document": null,
+      "status": "cv_reported_unverified"
+    }
+  ],
+  "projects": [
     {
       "id": "01",
       "slug": "centralized-log-aggregator",
@@ -26,10 +163,15 @@
         "Grafana",
         "Docker Compose"
       ],
-      "status": "planned",
-      "repository": null,
-      "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Centralized-Log-Aggregator",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; README reports local tests and an OCI trial; AWS/GCP not verified.",
+      "published_on": "2026-11-12",
+      "verification_basis": "repository-reported; not independently reproduced by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Centralized-Log-Aggregator/blob/main/README.md"
     },
     {
       "id": "02",
@@ -42,10 +184,15 @@
         "Docker",
         "OpenTofu"
       ],
-      "status": "planned",
-      "repository": null,
-      "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; README reports local tests and an OCI trial; AWS/GCP not verified.",
+      "published_on": "2026-11-12",
+      "verification_basis": "repository-reported; not independently reproduced by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox/blob/main/README.md"
     },
     {
       "id": "03",
@@ -59,10 +206,13 @@
         "S3 API",
         "Docker"
       ],
-      "status": "planned",
-      "repository": null,
+      "status": "local_verified",
+      "repository": "https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync",
       "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "notes": "Public repository; local backup/restore tests documented; live OCI not executed.",
+      "published_on": "2026-11-12",
+      "verification_basis": "repository-reported; not independently reproduced by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync/blob/main/docs/stage-4-local-verification.txt"
     },
     {
       "id": "04",
@@ -175,118 +325,6 @@
       "repository": null,
       "verified_providers": [],
       "notes": "Independent repository will be linked only after it is publicly available."
-    }
-  ],
-  "certifications": [],
-  "training_credentials": [
-    {
-      "id": "ibb-aws-training-2026",
-      "name": "SAP-C02 preparatory AWS architecture training (600 hours)",
-      "name_de": "600-stündige AWS-Architektur-Weiterbildung (SAP-C02-Vorbereitung)",
-      "issuer": "IBB AG",
-      "issued_on": "2026-03-06",
-      "training_started_on": "2025-12-08",
-      "kind": "training_completion",
-      "duration_hours": 600,
-      "aws_vendor_certification": false,
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/ibb-aws-architecture-course-600h-2026-03-06.pdf",
-      "issuer_verification_url": null
-    },
-    {
-      "id": "ibb-digital-workplace-2026",
-      "name": "Digitalisierte Arbeitswelt 4.0 — Lernen und Arbeiten in einer digitalen Lernumgebung",
-      "name_de": "Digitalisierte Arbeitswelt 4.0 — Lernen und Arbeiten in einer digitalen Lernumgebung",
-      "issuer": "IBB AG",
-      "issued_on": "2026-03-06",
-      "kind": "training_certificate",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/ibb-digitalisierte-arbeitswelt-2026-03-06.pdf",
-      "issuer_verification_url": null
-    },
-    {
-      "id": "google-digital-marketing-2022",
-      "name": "Fundamentals of Online Marketing",
-      "name_de": "Grundlagen des Onlinemarketings",
-      "issuer": "Google Zukunftswerkstatt",
-      "issued_on": "2022-05-29",
-      "kind": "assessment_certificate",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/google-online-marketing-2022-05-29.pdf",
-      "issuer_verification_url": "https://learndigital.withgoogle.com/link/1q49w0z9gqo"
-    }
-  ],
-  "course_completions": [
-    {
-      "title": "AWS SAP-C02 Domain 1 Review (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-08-06",
-      "filename": "aws-sap-c02-domain-1-review-2026-08-06.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-1-review-2026-08-06.pdf",
-      "vendor_professional_certification": false
-    },
-    {
-      "title": "AWS SAP-C02 Domain 2 Review (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-10-16",
-      "filename": "aws-sap-c02-domain-2-review-2026-10-16.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-2-review-2026-10-16.pdf",
-      "vendor_professional_certification": false
-    },
-    {
-      "title": "AWS SAP-C02 Domain 3 Review (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-10-16",
-      "filename": "aws-sap-c02-domain-3-review-2026-10-16.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-3-review-2026-10-16.pdf",
-      "vendor_professional_certification": false
-    },
-    {
-      "title": "AWS SAP-C02 Domain 4 Review (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-11-11",
-      "filename": "aws-sap-c02-domain-4-review-2026-11-11.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-domain-4-review-2026-11-11.pdf",
-      "vendor_professional_certification": false
-    },
-    {
-      "title": "AWS SAP-C02 Exam Prep Plan Overview (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-02-15",
-      "filename": "aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf",
-      "vendor_professional_certification": false
-    },
-    {
-      "title": "AWS SAP-C02 Official Practice Question Set (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-02-15",
-      "filename": "aws-sap-c02-official-practice-questions-2026-02-15.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf",
-      "vendor_professional_certification": false
-    },
-    {
-      "title": "AWS SAP-C02 Exam Prep Summary (English)",
-      "issuer": "AWS Training & Certification",
-      "kind": "training_module_completion",
-      "completed_on": "2026-11-11",
-      "filename": "aws-sap-c02-exam-prep-summary-2026-11-11.pdf",
-      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-sap-c02-exam-prep-summary-2026-11-11.pdf",
-      "vendor_professional_certification": false
-    }
-  ],
-  "cv_reported_training": [
-    {
-      "name": "Online Zertifikat Programmierung mit Python und Data Science",
-      "period_start": "2020-03",
-      "period_end": "2020-07",
-      "source": "2020 historical Lebenslauf",
-      "issuer": null,
-      "certificate_document": null,
-      "status": "cv_reported_unverified"
     }
   ]
 }
