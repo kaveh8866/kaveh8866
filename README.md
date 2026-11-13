@@ -1,4 +1,4 @@
-# Hi, I'm Kaveh Mosafa
+# Hi, I'm Kaveh Mostafa
 
 **Software Developer | Backend · Cloud / DevOps · AI Integration**
 
