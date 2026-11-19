@@ -3,6 +3,36 @@
   "purpose": "Employment-focused portfolio registry; CloudGuard remains private.",
   "featured_public_repositories": [
     {
+      "name": "Uptime & Endpoint Monitoring",
+      "repository": "https://github.com/kaveh8866/Uptime-Endpoint-Monitoring-Bot",
+      "category": "observability"
+    },
+    {
+      "name": "Secure Secrets Management",
+      "repository": "https://github.com/kaveh8866/Secure-Secrets-Management-Sandbox",
+      "category": "security"
+    },
+    {
+      "name": "CI/CD Security Scanner",
+      "repository": "https://github.com/kaveh8866/CI-CD-Security-Compliance-Scanner",
+      "category": "devsecops"
+    },
+    {
+      "name": "Bastion Host / Jump Server",
+      "repository": "https://github.com/kaveh8866/Bastion-Host-Jump-Server",
+      "category": "security"
+    },
+    {
+      "name": "Distributed Vector & Embedding Lake",
+      "repository": "https://github.com/kaveh8866/-Distributed-Vector-Embedding-Lake",
+      "category": "ai-data"
+    },
+    {
+      "name": "Multi-Agent Local LLM Swarm",
+      "repository": "https://github.com/kaveh8866/Multi-Agent-Local-LLM-Swarm",
+      "category": "ai"
+    },
+    {
       "name": "SemantIQ",
       "repository": "https://github.com/Logorythmus-org/Semantiq",
       "category": "AI evaluation infrastructure"
@@ -11,21 +41,6 @@
       "name": "SunLionet",
       "repository": "https://github.com/kaveh8866/Sunlionet",
       "category": "Resilient communication tools"
-    },
-    {
-      "name": "Centralized Log Aggregator",
-      "repository": "https://github.com/kaveh8866/Centralized-Log-Aggregator",
-      "category": "observability"
-    },
-    {
-      "name": "Secure Reverse Proxy & WAF Sandbox",
-      "repository": "https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox",
-      "category": "security"
-    },
-    {
-      "name": "Automated DB Backup & Cloud Sync",
-      "repository": "https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync",
-      "category": "reliability"
     }
   ],
   "certifications": [],
@@ -137,6 +152,16 @@
       "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf",
       "vendor_professional_certification": false,
       "program": "Amazon Kiro / Physical AI"
+    },
+    {
+      "title": "AWS Cloud Practitioner Essentials",
+      "issuer": "AWS Training & Certification",
+      "kind": "training_module_completion",
+      "completed_on": "2026-11-19",
+      "filename": "aws-cloud-practitioner-essentials-completion-2026-11-19.pdf",
+      "public_scan_url": "https://github.com/kaveh8866/kaveh8866/blob/main/certificates/aws-cloud-practitioner-essentials-completion-2026-11-19.pdf",
+      "vendor_professional_certification": false,
+      "program": "AWS Cloud Practitioner Essentials — course completion (not CLF-C02 exam)"
     }
   ],
   "cv_reported_training": [
@@ -221,29 +246,40 @@
       "title_de": "Verfügbarkeits- und Endpunkt-Monitoring",
       "category": "observability",
       "tech": [
-        "Uptime Kuma",
-        "Docker Compose"
+        "Python",
+        "SQLite",
+        "Docker",
+        "OpenTofu"
       ],
-      "status": "planned",
-      "repository": null,
-      "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Uptime-Endpoint-Monitoring-Bot",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Uptime-Endpoint-Monitoring-Bot/blob/main/README.md"
     },
     {
       "id": "05",
       "slug": "internal-docs-portal",
-      "title": "Internal Documentation Portal",
-      "title_de": "Internes Dokumentationsportal",
+      "title": "Internal Developer Portal",
+      "title_de": "Internes Entwickler-Dokumentationsportal",
       "category": "developer-tools",
       "tech": [
         "MkDocs",
-        "GitHub Actions",
-        "Docker"
+        "Nginx",
+        "Docker",
+        "OpenTofu"
       ],
-      "status": "planned",
-      "repository": null,
-      "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Internal-Developer-Portal-Static-Docs",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Internal-Developer-Portal-Static-Docs/blob/main/README.md"
     },
     {
       "id": "06",
@@ -281,18 +317,23 @@
     {
       "id": "08",
       "slug": "secrets-management-sandbox",
-      "title": "Secrets Management Sandbox",
-      "title_de": "Sandbox zur Geheimnisverwaltung",
+      "title": "Secure Secrets Management",
+      "title_de": "Sichere Geheimnisverwaltung",
       "category": "security",
       "tech": [
-        "Vault",
+        "Python",
+        "AES-GCM",
         "Docker",
         "OpenTofu"
       ],
-      "status": "planned",
-      "repository": null,
-      "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Secure-Secrets-Management-Sandbox",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Secure-Secrets-Management-Sandbox/blob/main/README.md"
     },
     {
       "id": "09",
@@ -313,18 +354,85 @@
     {
       "id": "10",
       "slug": "ci-security-scanner",
-      "title": "CI/CD Security & Compliance Scanner",
-      "title_de": "CI/CD-Sicherheits- und Compliance-Scanner",
+      "title": "CI/CD Security Scanner",
+      "title_de": "CI/CD-Sicherheitsprüfung",
       "category": "devsecops",
       "tech": [
+        "Python",
         "GitHub Actions",
-        "Trivy",
-        "Gitleaks"
+        "Docker",
+        "OpenTofu"
       ],
-      "status": "planned",
-      "repository": null,
-      "verified_providers": [],
-      "notes": "Independent repository will be linked only after it is publicly available."
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/CI-CD-Security-Compliance-Scanner",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/CI-CD-Security-Compliance-Scanner/blob/main/README.md"
+    },
+    {
+      "id": "11",
+      "slug": "bastion-host-jump-server",
+      "title": "Bastion Host / Jump Server",
+      "title_de": "Bastion-Host / Jump-Server",
+      "category": "security",
+      "tech": [
+        "OpenSSH",
+        "Docker",
+        "OpenTofu"
+      ],
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Bastion-Host-Jump-Server",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Bastion-Host-Jump-Server/blob/main/README.md"
+    },
+    {
+      "id": "12",
+      "slug": "distributed-vector-embedding-lake",
+      "title": "Distributed Vector & Embedding Lake",
+      "title_de": "Vektor- und Embedding-System",
+      "category": "ai-data",
+      "tech": [
+        "Qdrant",
+        "FastAPI",
+        "FastEmbed",
+        "OpenTofu"
+      ],
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/-Distributed-Vector-Embedding-Lake",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/-Distributed-Vector-Embedding-Lake/blob/main/README.md"
+    },
+    {
+      "id": "13",
+      "slug": "multi-agent-local-llm-swarm",
+      "title": "Multi-Agent Local LLM Swarm",
+      "title_de": "Lokales Multi-Agenten-LLM-System",
+      "category": "ai",
+      "tech": [
+        "Python",
+        "Ollama",
+        "Docker",
+        "OpenTofu"
+      ],
+      "status": "cloud_verified",
+      "repository": "https://github.com/kaveh8866/Multi-Agent-Local-LLM-Swarm",
+      "verified_providers": [
+        "OCI"
+      ],
+      "notes": "Public repository; documentation reports live OCI trial and local tests. Not independently re-executed for this portfolio; other cloud providers not verified.",
+      "verification_basis": "repository-reported; not independently re-executed by profile maintainer",
+      "verification_evidence_url": "https://github.com/kaveh8866/Multi-Agent-Local-LLM-Swarm/blob/main/README.md"
     }
   ]
 }

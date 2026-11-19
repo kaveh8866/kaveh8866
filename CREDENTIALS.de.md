@@ -28,13 +28,14 @@ Diese sieben Dateien sind **Completion Certificates zu Prüfungsvorbereitungsmod
 | 2026-02-15 | Exam Prep Plan Overview (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf) |
 | 2026-02-15 | Official Practice Question Set (SAP-C02, Englisch) | [Completion Certificate](certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf) |
 
-## Weiterer AWS-Kursabschluss — Amazon Kiro
+## Weitere AWS-Kursabschlüsse — Kiro und Cloud Practitioner Essentials
 
 | Abschluss | Kurs | Dokument |
 | --- | --- | --- |
 | **12.11.2026** | Accelerate Physical AI Development from Prototype to Production with Amazon Kiro | [Completion Certificate](certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf) |
+| **19.11.2026** | AWS Cloud Practitioner Essentials | [Completion Certificate](certificates/aws-cloud-practitioner-essentials-completion-2026-11-19.pdf) |
 
-Dies ist ein **Nachweis über den Abschluss eines Lernmoduls**, keine offizielle AWS-Berufszertifizierung und kein Beleg für ein produktives Physical-AI-System.
+Diese Unterlagen belegen **Kursabschlüsse**, weder eine bestandene AWS-Zertifizierungsprüfung (z. B. CLF-C02) noch ein produktiv betriebenes Physical-AI-System.
 
 ## Python und Data Science — Eintrag im älteren Lebenslauf
 

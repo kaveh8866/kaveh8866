@@ -8,13 +8,18 @@ Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge – von Backend-Di
 
 ### Ausgewählte öffentliche Projekte
 
-| Projekt | Technischer Schwerpunkt | Technologien |
+| Projekt | Schwerpunkt | Technologien |
 | --- | --- | --- |
-| **[Zentrale Log-Sammlung](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Logs sammeln und auswerten; OCI-Test dokumentiert | Fluent Bit · Loki · Grafana · Docker |
-| **[Sicherer Reverse-Proxy mit WAF-Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse-Proxy, Ratenbegrenzung und WAF-Regeln; OCI-Test dokumentiert | Caddy · Docker · OpenTofu |
-| **[Automatisierte Datenbank-Backups](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL-Backups, Prüfsummen und Restore; lokal getestet | PostgreSQL · rclone · Docker · OpenTofu |
-| **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | Bewertung von KI-Systemen anhand reproduzierbarer Verhaltensdaten, APIs und Entwicklerwerkzeuge | TypeScript · Python |
-| **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-First-Werkzeuge für robuste Kommunikation und Netzwerkverbindungen | Go · Netzwerktechnik |
+| **[Verfügbarkeits- und Endpunkt-Monitoring](https://github.com/kaveh8866/Uptime-Endpoint-Monitoring-Bot)** | Endpunktüberwachung und Störungsmeldungen · OCI-Test dokumentiert | Python · SQLite · Docker |
+| **[Sichere Geheimnisverwaltung](https://github.com/kaveh8866/Secure-Secrets-Management-Sandbox)** | Verschlüsselte Zugangsdaten und Zugriffsrechte · OCI-Test dokumentiert | Python · AES-GCM · Docker |
+| **[CI/CD-Sicherheitsprüfung](https://github.com/kaveh8866/CI-CD-Security-Compliance-Scanner)** | Prüfung von Pipelines, Abhängigkeiten und Secrets · OCI-Test dokumentiert | Python · GitHub Actions · Docker |
+| **[Bastion-Host / Jump-Server](https://github.com/kaveh8866/Bastion-Host-Jump-Server)** | Abgesicherter SSH-Zugang zu privaten Hosts · OCI-Test dokumentiert | OpenSSH · Docker · OpenTofu |
+| **[Vektor- und Embedding-System](https://github.com/kaveh8866/-Distributed-Vector-Embedding-Lake)** | Lokale Vektorsuche für RAG-Anwendungen · OCI-Test dokumentiert | Qdrant · FastAPI · FastEmbed |
+| **[Lokales Multi-Agenten-LLM-System](https://github.com/kaveh8866/Multi-Agent-Local-LLM-Swarm)** | Zusammenarbeit lokal betriebener KI-Agenten · OCI-Test dokumentiert | Python · Ollama · Docker |
+| **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | KI-Evaluierung und Entwicklerwerkzeuge | Python · TypeScript |
+| **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-First-Netzwerksoftware | Go |
+
+[Alle Projekte einschließlich Monitoring, Backups und Reverse-Proxy ansehen](PORTFOLIO.de.md)
 
 ### Technische Kenntnisse
 
@@ -34,7 +39,7 @@ Ich entwickle praxisnahe Software und Infrastruktur-Werkzeuge – von Backend-Di
 
 ### Eigenständiges Projektportfolio
 
-Zu meinen eigenständigen Projekten zählen inzwischen **zentrale Log-Sammlung, ein sicherer Reverse-Proxy und automatisierte PostgreSQL-Backups**. Die Repositories enthalten Docker- und OpenTofu-Konfigurationen mit Angaben zum jeweiligen Teststand. Für die ersten beiden Projekte sind OCI-Testläufe dokumentiert; das Backup-Projekt wurde bisher lokal geprüft. Weitere Projekte sowie zusätzliche deutschsprachige Projektdokumentationen folgen.
+Das Portfolio enthält inzwischen eigenständige Repositories für **Monitoring, Sicherheit, Observability, Backups, Entwicklerwerkzeuge und lokale KI**. Die Projekte dokumentieren Docker/OpenTofu und ihren jeweiligen Teststand. OCI-Deployments werden laut Projektunterlagen ausgewiesen; damit sind keine AWS-/GCP-Tests behauptet.
 
 **[Öffentliche und geplante Projekte ansehen](PORTFOLIO.de.md)**
 

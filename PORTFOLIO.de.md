@@ -10,35 +10,27 @@ Ein reproduzierbares Framework für die Auswertung von KI-Systemen und die Erfas
 **[SunLionet — Werkzeuge für robuste Netzwerke](https://github.com/kaveh8866/Sunlionet)**  
 Ein Offline-First-Projekt für widerstandsfähige Verbindungen und verteilte Konfigurationen mit Go-basierten Komponenten.
 
-## Eigenständige Projekte — öffentlich verfügbar
+## Eigenständige Projekte — öffentliche Repositories
 
-| Projekt | Zweck | Dokumentierter Teststand |
+| Projekt | Praktischer Schwerpunkt | Teststand laut Repository |
 | --- | --- | --- |
-| **[Zentrale Log-Sammlung](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Logs sammeln und auswerten | Lokal + OCI-Test (laut Repository) |
-| **[Sicherer Reverse-Proxy mit WAF-Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse-Proxy, Ratenbegrenzung und WAF-Regeln | Lokal + OCI-Test (laut Repository) |
-| **[Automatisierte Datenbank-Backups](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL-Backups, Prüfsummen und Restore | Backup/Restore lokal geprüft; OCI noch nicht getestet |
+| **[Zentrale Log-Sammlung](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Zentrale Log-Sammlung | Lokal + OCI-Test dokumentiert |
+| **[Sicherer Reverse-Proxy mit WAF-Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Sicherer Reverse-Proxy mit WAF-Sandbox | Lokal + OCI-Test dokumentiert |
+| **[Automatisierte Datenbank-Backups und Object-Storage-Sync](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | Automatisierte Datenbank-Backups und Object-Storage-Sync | Lokal geprüft · OCI nicht getestet |
+| **[Verfügbarkeits- und Endpunkt-Monitoring](https://github.com/kaveh8866/Uptime-Endpoint-Monitoring-Bot)** | Endpunktüberwachung und Störungsmeldungen | Lokal + OCI-Test dokumentiert |
+| **[Internes Entwickler-Dokumentationsportal](https://github.com/kaveh8866/Internal-Developer-Portal-Static-Docs)** | Schlanke interne Dokumentation | Lokal + OCI-Test dokumentiert |
+| **[Sichere Geheimnisverwaltung](https://github.com/kaveh8866/Secure-Secrets-Management-Sandbox)** | Verschlüsselte Zugangsdaten und Zugriffsrechte | Lokal + OCI-Test dokumentiert |
+| **[CI/CD-Sicherheitsprüfung](https://github.com/kaveh8866/CI-CD-Security-Compliance-Scanner)** | Prüfung von Pipelines, Abhängigkeiten und Secrets | Lokal + OCI-Test dokumentiert |
+| **[Bastion-Host / Jump-Server](https://github.com/kaveh8866/Bastion-Host-Jump-Server)** | Abgesicherter SSH-Zugang zu privaten Hosts | Lokal + OCI-Test dokumentiert |
+| **[Vektor- und Embedding-System](https://github.com/kaveh8866/-Distributed-Vector-Embedding-Lake)** | Lokale Vektorsuche für RAG-Anwendungen | Lokal + OCI-Test dokumentiert |
+| **[Lokales Multi-Agenten-LLM-System](https://github.com/kaveh8866/Multi-Agent-Local-LLM-Swarm)** | Zusammenarbeit lokal betriebener KI-Agenten | Lokal + OCI-Test dokumentiert |
 
-Die Angaben zum Teststand stammen aus den jeweiligen Projekt-READMEs und Nachweisen. Sie wurden **hier nicht unabhängig reproduziert**. Portabilität bedeutet nicht, dass bereits alle Cloud-Anbieter getestet wurden.
+*Die Testangaben stammen aus den jeweiligen Projektdokumentationen und wurden hier nicht unabhängig wiederholt. Eine Ausführung auf AWS oder GCP wird nicht behauptet.*
 
-## Weitere Projekte — geplant
+## Geplante Projekte
 
-Die übrigen sieben Projekte der Reihe sind noch nicht als eigenständige Repositories veröffentlicht:
+- **06 — Identitäts- und Single-Sign-On-Gateway**
+- **07 — Hintergrundverarbeitung mit Warteschlange**
+- **09 — Sicherer Datei-Upload und Asset-Service**
 
-<details>
-<summary>Geplante Projekte 04–10 anzeigen</summary>
-
-| Nr. | Projekt |
-| --- | --- |
-| 04 | Verfügbarkeits- und Endpunkt-Monitoring |
-| 05 | Internes Dokumentationsportal |
-| 06 | Identitäts- und Single-Sign-On-Gateway |
-| 07 | Hintergrundverarbeitung mit Warteschlange |
-| 08 | Sandbox zur Geheimnisverwaltung |
-| 09 | Sicherer Datei-Upload und Asset-Service |
-| 10 | CI/CD-Sicherheits- und Compliance-Scanner |
-
-</details>
-
-[Projektverzeichnis (strukturierte Metadaten)](portfolio/projects.json)
-
-[Weiterbildungsnachweise und Kursabschlüsse](CREDENTIALS.de.md)
+[Projektverzeichnis](portfolio/projects.json) · [Zertifikate und Weiterbildung](CREDENTIALS.de.md)

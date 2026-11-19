@@ -38,8 +38,8 @@ for page in ["README.md", "README.de.md", "PORTFOLIO.md", "PORTFOLIO.de.md"]:
 featured = data["featured_public_repositories"]
 assert len(featured) >= 5
 assert len({item["repository"] for item in featured}) == len(featured), "Duplicate featured repo"
-assert sum(bool(p["repository"]) for p in projects) >= 3, "Missing initial published projects"
-for p in projects[:3]:
+assert sum(bool(p["repository"]) for p in projects) >= 10, "Missing published portfolio projects"
+for p in [p for p in projects if p["repository"]]:
     assert p["repository"] in (root / "PORTFOLIO.md").read_text(encoding="utf-8")
     assert p["repository"] in (root / "PORTFOLIO.de.md").read_text(encoding="utf-8")
 for item in featured:
