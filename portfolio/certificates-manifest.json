@@ -55,6 +55,11 @@
       "file": "certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf",
       "sha256": "237c12a9c33deae54b7c18f7e9379a5fadc87257dc424661655c573ae797ef4c",
       "bytes": 295987
+    },
+    {
+      "file": "certificates/aws-cloud-practitioner-essentials-completion-2026-11-19.pdf",
+      "sha256": "7119c63cd6e4047939c391d44beaee5a8cb45a7ff751e2edf132e6344f73de56",
+      "bytes": 296054
     }
   ]
 }

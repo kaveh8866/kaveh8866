@@ -28,13 +28,14 @@ These seven PDFs are **learning-module completion receipts** for SAP-C02 prepara
 | 2026-02-15 | Exam Prep Plan Overview (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-exam-prep-overview-2026-02-15.pdf) |
 | 2026-02-15 | Official Practice Question Set (SAP-C02, English) | [Completion PDF](certificates/aws-sap-c02-official-practice-questions-2026-02-15.pdf) |
 
-## Additional AWS course completion — Amazon Kiro
+## Additional AWS course completions — Kiro & Cloud Practitioner Essentials
 
 | Completed | Course | Source PDF |
 | --- | --- | --- |
 | **2026-11-12** | Accelerate Physical AI Development from Prototype to Production with Amazon Kiro | [Completion Certificate](certificates/aws-kiro-physical-ai-prototype-production-2026-11-12.pdf) |
+| **2026-11-19** | AWS Cloud Practitioner Essentials | [Completion Certificate](certificates/aws-cloud-practitioner-essentials-completion-2026-11-19.pdf) |
 
-This document certifies **completion of a training course**, not a vendor-level professional exam or proof of deploying Physical AI systems.
+These documents confirm **course completion**, not a vendor professional certification, a passed CLF-C02 exam or proof of deploying Physical AI systems.
 
 ## Python & Data Science — earlier CV entry
 

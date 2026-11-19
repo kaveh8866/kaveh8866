@@ -8,13 +8,18 @@ I build practical software and infrastructure tools—from backend services and 
 
 ### Selected public projects
 
-| Project | Engineering focus | Main technologies |
+| Project | Engineering focus | Technologies |
 | --- | --- | --- |
-| **[Centralized Log Aggregator](https://github.com/kaveh8866/Centralized-Log-Aggregator)** | Log collection, search and dashboards; OCI run documented | Fluent Bit · Loki · Grafana · Docker |
-| **[Secure Reverse Proxy & WAF Sandbox](https://github.com/kaveh8866/Secure-Reverse-Proxy-WAF-Sandbox)** | Reverse proxy, rate limiting and WAF rules; OCI run documented | Caddy · Docker · OpenTofu |
-| **[Automated DB Backup & Cloud Sync](https://github.com/kaveh8866/Automated-DB-Backup-Cloud-Sync)** | PostgreSQL backup, checksum and restore; local test documented | PostgreSQL · rclone · Docker · OpenTofu |
-| **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | Evaluating AI systems with reproducible behavioral evidence, APIs and developer tools | TypeScript · Python |
-| **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-first tools for resilient communication and network connectivity | Go · Networking |
+| **[Uptime & Endpoint Monitoring](https://github.com/kaveh8866/Uptime-Endpoint-Monitoring-Bot)** | Uptime alerts and endpoint health · OCI trial reported | Python · SQLite · Docker |
+| **[Secure Secrets Management](https://github.com/kaveh8866/Secure-Secrets-Management-Sandbox)** | Encrypted secrets with scoped access · OCI trial reported | Python · AES-GCM · Docker |
+| **[CI/CD Security Scanner](https://github.com/kaveh8866/CI-CD-Security-Compliance-Scanner)** | Pipeline, dependency and secret scanning · OCI trial reported | Python · GitHub Actions · Docker |
+| **[Bastion Host / Jump Server](https://github.com/kaveh8866/Bastion-Host-Jump-Server)** | Hardened SSH access to private hosts · OCI trial reported | OpenSSH · Docker · OpenTofu |
+| **[Distributed Vector & Embedding Lake](https://github.com/kaveh8866/-Distributed-Vector-Embedding-Lake)** | Self-hosted vector retrieval for RAG · OCI trial reported | Qdrant · FastAPI · FastEmbed |
+| **[Multi-Agent Local LLM Swarm](https://github.com/kaveh8866/Multi-Agent-Local-LLM-Swarm)** | Locally hosted collaborative AI agents · OCI trial reported | Python · Ollama · Docker |
+| **[SemantIQ](https://github.com/Logorythmus-org/Semantiq)** | AI evaluation and developer tooling | Python · TypeScript |
+| **[SunLionet](https://github.com/kaveh8866/Sunlionet)** | Offline-first networking tools | Go |
+
+[See all public projects, including monitoring, backups and reverse proxying](PORTFOLIO.md)
 
 ### Technical skills
 
@@ -34,7 +39,7 @@ I build practical software and infrastructure tools—from backend services and 
 
 ### Independent engineering portfolio
 
-My independent repositories now include **log aggregation, secure reverse proxying and automated PostgreSQL backups**. Each has its own Docker and OpenTofu setup and describes its actual test scope; only the first two report live OCI trials. More projects are in preparation, and bilingual project-level documentation will be added as it becomes available.
+The portfolio now includes independent repositories for **monitoring, security, observability, backup automation, developer tooling and local AI**. Each project documents Docker/OpenTofu setup and the scope of its tests. OCI deployment is reported in the linked project documentation; AWS/GCP runs are not implied.
 
 **[Explore public projects and upcoming work](PORTFOLIO.md)**
 
